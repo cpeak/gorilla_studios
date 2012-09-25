@@ -1,0 +1,530 @@
+/* Gorilla Studios - Chris Peak ©2003-2012 */
+/* Legend
+
+  =N Header and Navigation
+  =L Layout
+  =F Footer
+  =T Typekit defs
+  =SB Sidebar
+
+*/
+
+/* ############################################## */
+/* ############## LAYOUT =L ##################### 
+   === Anatomy ===
+  body
+    container
+      header
+      content
+	m_blog
+	m_sidebar
+	m_footer
+*/
+
+.container {
+  margin: 0 auto;
+  overflow: hidden; 
+  width: 95%;
+  max-width: 1100px;  
+}
+
+.content { 
+  border-top: 1px solid #ccc;
+  padding-top: 10px; 
+}
+
+.content p { 
+  color: #333;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 200; 
+  line-height: 1.5em;
+  padding-bottom: 15px; 
+ }
+
+/* ############################################## */
+/* ######## HEADER & NAVIGATION =N ############## */
+
+header a { text-decoration: none; border: none; }
+
+.brand { margin: 10px auto 0px;  width: 200px; }
+
+.navbar { height: 63px; margin: 0 auto; }
+
+.nav a.active { color: #000; }
+
+.nav { 
+  margin: 0 auto; 
+  padding: 19px 0px 0px 0px; 
+  width: 300px; 
+}
+
+.nav li { display: inline; }
+
+.nav li a {
+  color: #aaa; 
+  font-family: "SourceSansProRegular", sans-serif;
+  font-weight: 400;
+  font-size: .9em; 
+  text-transform: uppercase;
+  padding: 3px 10px;
+}
+
+.nav li a:hover { border-bottom: 2px solid #ACC28F; color: #000 !important;  }
+
+
+/* ############################################## */
+/* ############### SIDEBAR =SB ################## */
+
+.m_sidebar {
+  float: right;
+  font-size: .8em;
+  margin-top: 20px; 
+  text-align: center; 
+  width: 22%;
+}
+
+.m_sidebar h5 { margin-top: 20px; }
+
+.affiliate_link a {
+  background-image: url('/images/borrow_lenses.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 437px;
+  width: 130px;
+  max-width: 100%;
+  
+}
+
+.tweet_list li { margin-bottom: 5px; padding: 5px 10px; }
+.tweet_list li:nth-child(odd) { background: #f2f7fc; }
+.tweet_avatar {
+  float: left; 
+  display: block;
+  margin: 5px 3px 0px 0px;
+}
+
+/* ############################################## */
+/* ############### FOOTER =F #################### */
+
+footer {
+  float: left; 
+  margin-top: 40px; 
+  width: 100%; 
+}
+footer p {
+  color: #ccc !important;
+  padding: 10px 0px;
+  text-align: center; 
+  text-shadow: 0px -1px 1px #fff; 
+}
+
+
+/* ############################################## */
+/* ################## TYPE =T ################### */
+
+@font-face { 
+  font-family: 'SourceSansProLight';  /* Post copy type */
+  src: url('/type/SourceSansPro-Light-webfont.eot');
+  src: url('/type/SourceSansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/type/SourceSansPro-Light-webfont.woff') format('woff'),
+       url('/type/SourceSansPro-Light-webfont.ttf') format('truetype'),
+       url('/type/SourceSansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansProLightItalic'; /* Post copy italic */
+  src: url('/type/SourceSansPro-LightIt-webfont.eot');
+  src: url('/type/SourceSansPro-LightIt-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/type/SourceSansPro-LightIt-webfont.woff') format('woff'),
+       url('/type/SourceSansPro-LightIt-webfont.ttf') format('truetype'),
+       url('/type/SourceSansPro-LightIt-webfont.svg#SourceSansProLightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansProRegular'; /* Navigation */
+  src: url('/type/SourceSansPro-Regular-webfont.eot');
+  src: url('/type/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/type/SourceSansPro-Regular-webfont.woff') format('woff'),
+       url('/type/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+       url('/type/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueGothicRegular'; /* Headlines */
+  src: url('/type/League_Gothic-webfont.eot');
+  src: url('/type/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/type/League_Gothic-webfont.woff') format('woff'),
+       url('/type/League_Gothic-webfont.ttf') format('truetype'),
+       url('/type/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+code { 
+  padding: 4px 5px;
+  color: #3366cc;
+  font-size: .75em; 
+}
+
+
+/* ############################################## */
+/* ########## INDIVIDUAL BLOG POSTS ############# */
+
+.post { margin: 0px auto 40px; }
+
+.m_post_date a { /* ### Blog Post Title ### */
+  color: #444;
+  font-family: "LeagueGothicRegular";
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 35pt;
+  text-decoration: none;
+}
+
+.m_post_date a:hover { color: #5A7D5F; }
+
+.post img,
+.span8 img {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%; 
+}
+
+.m_blog { /* Blog posts - text only */
+  float: left; 
+  width: 75%;
+  max-width: 800px; 
+}
+
+.m_post_break {	/* Dashed post separator */
+  border-bottom: 1px dashed #777; 
+  margin: 40px auto 0px auto;
+  width: 500px;
+}
+
+.quote {
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  font-style: italic;  
+  margin: 0 auto; 
+  padding: 20px; 
+  width: 70%;
+}
+
+.pagination { text-align: center; }
+.pagination ul li { display: inline; }
+
+
+/* ############################################## */
+/* ############## ARCHIVE TAGS ################## */
+
+.m_tools_list h4 { margin-top: 20px; }
+
+.tag_box {
+  list-style:none;
+  margin:0;
+  padding: 5px 0 ;
+  overflow:hidden;
+}
+.tag_box li { line-height:28px; }
+.tag_box.inline li { float:left; }
+
+.tag_box a {
+  background: #8aa677;
+  border-radius: 3px;
+  color:#fff;
+  line-height: 2em; 
+  margin: 2px;
+  padding: 10px 8px 6px 8px;
+  text-decoration:none;
+}
+.tag_box a span{
+  vertical-align:super;
+  font-size:0.8em;
+}
+.tag_box a.active {
+  background:#57A957;
+  border:1px solid #4C964D;
+  color:#FFF;
+}
+
+.tag_box a:hover { color: #000; }
+
+/* ############################################## */
+/* ############## CONTACT PAGE ################## */
+
+.contact_form p { 
+  font-size: 1.1em; 
+  padding-top: 7px; 
+  height: .4em; 
+}
+
+input[type="text"], textarea { 
+  padding: 4px;
+  width: 90%; 
+}
+.social_links {
+  margin: 5px 0px; 
+  vertical-align: middle; 
+}
+
+
+
+/* ############################################## */
+/* ############## Gallery ################## */
+
+#container {
+  overflow: hidden; 
+  width: 100%; 
+}
+
+.box {
+  margin: 5px;
+  padding: 0;
+}
+.col1 { width: 80px; }
+.col2 { width: 180px; }
+.col3 { width: 280px; }
+.col4 { width: 380px; }
+.col5 { width: 480px; }
+
+.col1 img { max-width: 80px; }
+.col2 img { max-width: 180px; }
+.col3 img { max-width: 280px; }
+.col4 img { max-width: 380px; }
+.col5 img { max-width: 480px; }
+
+/**** Transitions ****/
+
+.transitions-enabled.masonry,
+.transitions-enabled.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.transitions-enabled.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.transitions-enabled.masonry  .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+/* disable transitions on container */
+.transitions-enabled.infinite-scroll.masonry {
+  -webkit-transition-property: none;
+     -moz-transition-property: none;
+       -o-transition-property: none;
+          transition-property: none;
+}
+
+
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}
+
+
+/* ############################################## */
+/* ############## MEDIA QUERIES ################# */
+
+/* ------------ iPhone Landscape =IPL ----------------- */
+@media only screen and (min-width : 321px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .m_blog {
+    float: none;
+    margin: 0 auto;
+    width: 95%;
+  }
+  .l_half_col { 
+    float: none !important; 
+    width: 95%; 
+  }
+
+  /* SIDEBAR */
+  .m_sidebar {
+    float: none;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .affiliate_link a {
+    background-image: url('/images/borrow_lenses_iphone.jpg');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-height: 250px;
+    width: 95%; 
+  }
+  
+  /* CONTACT PAGE */
+  input[type="text"], textarea { 
+    padding: 4px;
+    width: 100%; 
+  }
+
+}
+
+@media only screen and (max-width : 320px) {
+
+
+  .container {
+    width: 100%;
+   }
+  .brand {
+    margin: 15px auto 0px auto;
+    width: 140px;
+  }
+  .brand img {
+    max-width: 100%; 
+  }
+   
+  .navbar {
+    height: 180px;
+  }
+  .nav li a {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;  
+    color: #333; 
+    display: block;
+    margin: 5px 0px;
+    padding: 8px;
+    text-align: center; 
+  }
+  .m_blog {
+    float: none;
+    margin: 0 auto;
+    width: 95%;
+  }
+  .l_half_col { 
+    float: none !important; 
+    width: 95%; 
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  /* SIDEBAR */
+  .m_sidebar {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .affiliate_link a {
+    background-image: url('/images/borrow_lenses_iphone.jpg');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-height: 250px;
+    width: 99%; 
+  }
+  /* CONTACT PAGE */
+  input[type="text"], textarea { 
+    padding: 4px;
+    width: 100%; 
+  }
+}

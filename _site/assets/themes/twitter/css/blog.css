@@ -1,0 +1,48 @@
+/* Gorilla Studios - Chris Peak ©2003-2012 */
+
+body {
+  border-top: 4px solid #ACC28F;
+  font-family: "SourceSansProLight", serif;
+  padding: 0;
+  margin: 0; 
+}
+
+a, a:visited { color: #6da04b; }
+a:hover { color: #000; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-family: "LeagueGothicRegular";
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; 
+}
+
+h2 { font-size: 52px; padding: 20px 0px 15px 0px; }
+h3 { font-size: 39px; margin-top: 15px;  }
+h4 { font-size: 32px; margin-top: 5px;  }
+h5 { font-size: 25px; margin-top: 2px; font-weight: 100; }
+
+p { margin: 0; }
+
+ul { list-style: none; margin: 0; padding: 0; }
+
+.row { padding: 40px; } /* Bootstrap hack - need to fix */
+
+.pagination ul { display: block; list-style: none; }
+
+/* Clearfix */
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+
+.floating { display: block; max-width: 100%;}
+
+.l_left { float: left; }
+.l_right { float: right; }
+.l_center { margin: 0 auto; }
+.l_half_col { width: 48%;  }
+.l_full_column { width: 90%; max-width: 900px; }
+
+
