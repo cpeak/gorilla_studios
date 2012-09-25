@@ -432,6 +432,7 @@ input[type="text"], textarea {
 /* ------------ iPhone Landscape =IPL ----------------- */
 @media only screen and (min-width : 321px) and (max-width: 480px) {
   .container {
+    background: #fff; 
     width: 100%;
   }
 
@@ -472,6 +473,7 @@ input[type="text"], textarea {
 
 
   .container {
+    background: #fff; 
     width: 100%;
    }
   .brand {
