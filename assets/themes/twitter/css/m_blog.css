@@ -97,7 +97,12 @@ header a { text-decoration: none; border: none; }
   
 }
 
-.tweet_list li { margin-bottom: 5px; padding: 5px 10px; }
+.tweet_list li { 
+  line-height: 1.4em; 
+  margin-bottom: 5px; 
+  padding: 5px 10px;
+  text-align: left; 
+}
 .tweet_list li:nth-child(odd) { background: #f2f7fc; }
 .tweet_avatar {
   float: left; 
