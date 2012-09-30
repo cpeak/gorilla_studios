@@ -11,6 +11,7 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2012/09/30/5D-MkII-Price-Drop
 http://www.gorilla-studios.com/2012/08/26/great-blue-heron
 http://www.gorilla-studios.com/2012/07/27/quick-tip-shooting-the-moon
 http://www.gorilla-studios.com/2012/07/24/a-photographers-best-tool-improvisation
