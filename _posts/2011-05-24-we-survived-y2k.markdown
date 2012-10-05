@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We Survived Y2K
-tags: Graphic-Design
+tags: Design
 date: 2011-05-24 20:02:02.000000000 -05:00
 ---
 <img src="/images/y2k.jpg" alt="We Survived Y2K" />

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Whats In The Bag? 
-tags: Gear Whats-In-The-Bag?
+tags: Gear
 date: 2011-12-03 14:35:05.000000000 -06:00
 ---
 <p>I get a lot of questions about what camera and lenses I shoot with and what gear I like to carry, so I am going to write a few posts covering what's in my bag and what I lug around on a typical shoot.  Here's my usual gear bag for general shoots:</p>

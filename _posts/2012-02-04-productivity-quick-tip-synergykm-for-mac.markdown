@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Productivity Quick-Tip - SynergyKM For Mac
-tags: Productivity Software
+tags: Software
 date: 2012-02-04 10:04:49.000000000 -06:00
 ---
 <p>One tool I use quite a bit but never think about is <a href="http://sourceforge.net/projects/synergykm/">SynergyKM</a>, an open-source app that lets you control multiple computers with one keyboard and mouse without a physical KVM switch.</p>

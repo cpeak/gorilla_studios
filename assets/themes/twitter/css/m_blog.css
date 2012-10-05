@@ -72,7 +72,6 @@ header a { text-decoration: none; border: none; }
 
 .nav li a:hover { border-bottom: 2px solid #ACC28F; color: #000 !important;  }
 
-
 /* ############################################## */
 /* ############### SIDEBAR =SB ################## */
 
@@ -262,6 +261,23 @@ code {
 }
 
 .tag_box a:hover { color: #000; }
+
+
+.list_block {
+  border: 1px solid #ccc;
+  display: inline-block;
+  float: left;
+  margin: 1%;
+  height: 370px; 
+  width: 30%;
+}
+.m_tag_list_block {
+  padding: 3%;
+}
+.m_tag_list_block h2 {
+  text-align: center;
+  padding: 0;
+}
 
 /* ############################################## */
 /* ############## CONTACT PAGE ################## */

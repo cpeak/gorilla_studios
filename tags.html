@@ -12,9 +12,13 @@ header: Posts By Tag
 
 
 {% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include JB/pages_list %}
-  </ul>
+<div class="list_block">
+  <div class="m_tag_list_block" >
+    <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+    <ul>
+      {% assign pages_list = tag[1] %}  
+      {% include JB/pages_list %}
+    </ul>
+  </div>
+</div>
 {% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Identity - Ms Domestic Darling
-tags: Graphic-Design Link
+tags: Design
 date: 2009-08-31 09:57:39.000000000 -05:00
 ---
 <img src="/images/domesticdarling.png" alt="" />

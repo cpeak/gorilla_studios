@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Photographers best tool - improvisation
-tags: Photography Opinion 
+tags: Opinion 
 date: 2012-07-24 19:23:21.000000000 -05:00
 ---
 
