@@ -4,13 +4,21 @@
  <title>Gorilla-Studios</title>
  <link href="http://www.gorilla-studios.com/atom.xml" rel="self"/>
  <link href="http://www.gorilla-studios.com"/>
- <updated>2012-10-04T23:19:38-05:00</updated>
+ <updated>2012-11-27T16:11:22-06:00</updated>
  <id>http://www.gorilla-studios.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Insure Your Gear</title>
+   <link href="http://www.gorilla-studios.com/2012/11/27/insure-your-gear"/>
+   <updated>2012-11-27T00:00:00-06:00</updated>
+   <id>http://www.gorilla-studios.com/2012/11/27/insure-your-gear</id>
+   <content type="html">&lt;p&gt;Here's a great reason why to insure your gear before something bad happens. Ed Hetherington shared a story via &lt;a href='http://www.facebook.com/media/set/?set=a.10152269804305542.929748.117291240541&amp;type=1'&gt;his facebook page&lt;/a&gt; about how a lioness decided to get up close and personal with his EOS 5D MkII. While the camera did not survive, thankfully it looks like the lioness didn't suffer any injuries from her curiosity.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>5D MkII Price Drop</title>
@@ -521,7 +529,7 @@
    <link href="http://www.gorilla-studios.com/2009/04/24/my-desktop-friday-at-5pm"/>
    <updated>2009-04-24T13:03:54-05:00</updated>
    <id>http://www.gorilla-studios.com/2009/04/24/my-desktop-friday-at-5pm</id>
-   <content type="html">&lt;img src='/images/geek_desktop.jpg' title='My Desktop' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</content>
+   <content type="html">&lt;img title='My Desktop' src='/images/geek_desktop.jpg' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</content>
  </entry>
  
  <entry>
