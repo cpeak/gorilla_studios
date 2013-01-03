@@ -7,6 +7,7 @@ http://www.gorilla-studios.com/contact.html
 http://www.gorilla-studios.com/gallery.html
 http://www.gorilla-studios.com/index.html
 http://www.gorilla-studios.com/pages.html
+http://www.gorilla-studios.com/photo365.html
 http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
