@@ -6,7 +6,7 @@
   =F Footer
   =T Typekit defs
   =SB Sidebar
-
+  =H Home Page
   =G Gallery
 */
 
@@ -34,14 +34,6 @@
   padding-top: 10px; 
 }
 
-.content p { 
-  color: #333;
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 200; 
-  line-height: 1.5em;
-  padding-bottom: 15px; 
- }
 
 /* ############################################## */
 /* ######## HEADER & NAVIGATION =N ############## */
@@ -66,7 +58,7 @@ header a { text-decoration: none; border: none; }
   color: #aaa; 
   font-family: "SourceSansProRegular", sans-serif;
   font-weight: 400;
-  font-size: .9em; 
+  font-size: .7em; 
   text-transform: uppercase;
   padding: 3px 10px;
 }
@@ -181,16 +173,21 @@ code {
 
 
 /* ############################################## */
-/* ########## INDIVIDUAL BLOG POSTS ############# */
+/* ########### =H HOME PAGE - POSTS ############# */
 
-.post { margin: 0px auto 40px; }
+.m_blog { /* Blog posts container */
+  float: left; 
+  width: 75%;
+  max-width: 800px; 
+}
+.post { border: 1px solid #fff; }
 
+.m_post_date { border: 1px solid #fff;} 
 .m_post_date a { /* ### Blog Post Title ### */
-  color: #444;
+  color: #333;
   font-family: "LeagueGothicRegular";
-  font-weight: normal;
+  font-size: 2.369em;
   text-transform: uppercase;
-  font-size: 35pt;
   text-decoration: none;
 }
 
@@ -199,19 +196,14 @@ code {
 .post img,
 .span8 img {
   display: block;
-  margin: 15px auto;
+  margin: 0 auto 1.5em auto;
   max-width: 100%; 
 }
 
-.m_blog { /* Blog posts - text only */
-  float: left; 
-  width: 75%;
-  max-width: 800px; 
-}
 
 .m_post_break {	/* Dashed post separator */
   border-bottom: 1px dashed #777; 
-  margin: 40px auto 0px auto;
+  margin: 0 auto 1.45em auto;
   width: 500px;
 }
 

@@ -3,6 +3,7 @@
 body {
   border-top: 4px solid #ACC28F;
   font-family: "SourceSansProLight", serif;
+  font-size: 20px;
   padding: 0;
   margin: 0; 
 }
@@ -19,14 +20,33 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; 
 }
 
-h2 { font-size: 52px; padding: 20px 0px 15px 0px; }
-h3 { font-size: 39px; margin-top: 15px;  }
-h4 { font-size: 32px; margin-top: 5px;  }
-h5 { font-size: 25px; margin-top: 2px; font-weight: 100; }
+/* h2 { 
+  font-size: 2.369em; 
+  line-height: 0.63317856em;
+  margin-bottom: 0.63317856em;
+} */
+h3 { 
+  font-size: 1.777em; 
+  line-height: 0.8441193em;
+  margin-bottom: 0.8441193em;
+}
+h4 { font-size: 32px; } 
+h5 { font-size: 25px; }
 
-p { margin: 0; }
+p {
+  color: #333;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 0; 
+  padding-bottom: 1.5em; 
+}
 
-ul { list-style: none; margin: 0; padding: 0; }
+ul { 
+  list-style: none; 
+  margin: 0 0 1.5em 0; 
+  padding: 0; 
+
+}
 
 .row { padding: 40px; } /* Bootstrap hack - need to fix */
 
