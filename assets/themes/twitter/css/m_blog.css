@@ -49,7 +49,7 @@ header a { text-decoration: none; border: none; }
 .nav { 
   margin: 0 auto; 
   padding: 19px 0px 0px 0px; 
-  width: 300px; 
+  width: 395px; 
 }
 
 .nav li { display: inline; }
@@ -64,6 +64,7 @@ header a { text-decoration: none; border: none; }
 }
 
 .nav li a:hover { border-bottom: 2px solid #ACC28F; color: #000 !important;  }
+
 
 /* ############################################## */
 /* ############### SIDEBAR =SB ################## */
@@ -468,6 +469,7 @@ input[type="text"], textarea {
     width: 100%;
   }
 
+  .mobile_center { text-align: center; }
   .m_blog {
     float: none;
     margin: 0 auto;
@@ -526,7 +528,8 @@ input[type="text"], textarea {
   }
    
   .navbar {
-    height: 180px;
+    height: 215px;
+    width: 320px;
   }
   .nav li a {
     border-top: 1px solid #ccc;
@@ -536,6 +539,7 @@ input[type="text"], textarea {
     margin: 5px 0px;
     padding: 8px;
     text-align: center; 
+    width: 310px;
   }
   .m_blog {
     float: none;
