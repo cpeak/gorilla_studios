@@ -301,13 +301,10 @@ input[type="text"], textarea {
 /* ############## PHOTO 365 ################# */
 
 .gallery_list li {
-  color: #ffffff;
   float: left;
-  font-size: 2.5em; 
-  font-weight: bold;
-  max-height: 120px;
-  overflow: hidden;
-  width: 180px;
+  margin-right: 5px;
+  max-height: 150px;
+  width: 220px;
 }
 .gallery_list li img {
   max-width: 100%;
