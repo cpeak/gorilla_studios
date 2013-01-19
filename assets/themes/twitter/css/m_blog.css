@@ -301,6 +301,10 @@ input[type="text"], textarea {
 /* ############################################## */
 /* ############## PHOTO 365 ################# */
 
+.gallery_list ul {
+  overflow: hidden; 
+  padding: 1% 0 0 1%;
+}
 .gallery_list li {
   float: left;
   margin: 0px 1% 0.5% 0px;
@@ -351,13 +355,17 @@ input[type="text"], textarea {
     padding: 4px;
     width: 100%; 
   }
-  /* Photo 365 */
-  .challenge_list li {
+  #contact-other {
+    border: 1px solid red;
+    margin-top: 20px;
+  }
+  /* Galleries */
+  .gallery_list li {
     float: none;
     margin: 0px auto 10px auto;
     width: 90%;
   }
-  .challenge_list li img {
+  .gallery_list li img {
     display: block;
     margin: 0 auto;
   }
@@ -418,11 +426,14 @@ input[type="text"], textarea {
     max-height: 250px;
     width: 99%; 
   }
+
   /* CONTACT PAGE */
   input[type="text"], textarea { 
     padding: 4px;
     width: 100%; 
   }
+
+  /* Galleries */
   .gallery_list li {
     float: none;
     margin: 0px auto 10px auto;
