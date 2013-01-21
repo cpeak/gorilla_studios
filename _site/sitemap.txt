@@ -12,6 +12,7 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/01/14/flight
 http://www.gorilla-studios.com/2013/01/14/experiment
 http://www.gorilla-studios.com/2013/01/13/photo-365
 http://www.gorilla-studios.com/2013/01/01/happy-new-year
