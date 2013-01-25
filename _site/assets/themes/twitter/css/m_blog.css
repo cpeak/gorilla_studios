@@ -355,7 +355,6 @@ input[type="text"], textarea {
     width: 100%; 
   }
   #contact-other {
-    border: 1px solid red;
     margin-top: 20px;
   }
   /* Galleries */
@@ -433,6 +432,9 @@ input[type="text"], textarea {
     width: 100%; 
   }
 
+  #contact-other {
+    margin-top: 20px;
+  }
   /* Galleries */
   .gallery_list li {
     float: none;
