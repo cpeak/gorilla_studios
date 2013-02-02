@@ -6,9 +6,22 @@
     <atom:link href="http://www.gorilla-studios.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Gorilla-Studios Photography &amp; Design</description>
     <language>en-us</language>
-    <pubDate>Thu, 31 Jan 2013 20:51:16 -0600</pubDate>
-    <lastBuildDate>Thu, 31 Jan 2013 20:51:16 -0600</lastBuildDate>
+    <pubDate>Fri, 01 Feb 2013 21:57:37 -0600</pubDate>
+    <lastBuildDate>Fri, 01 Feb 2013 21:57:37 -0600</lastBuildDate>
 
+    
+    <item>
+      <title>Photo Of The Month</title>
+      <link>http://www.gorilla-studios.com/2013/02/01/photo-of-the-month</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 -0600</pubDate>
+      <author>chris@gorilla-studios.com (Chris Peak)</author>
+      <guid>http://www.gorilla-studios.com/2013/02/01/photo-of-the-month</guid>
+      <description>&lt;p&gt;One month into the Photo365 challenge and I feel it has been going very well so far. The goal when I started wasn't to produce portfolio-worthy images every day - it was mainly to keep practicing my craft while pushing myself to step outside my comfort zone and shoot things I normally wouldn't. Some days were harder than others, but overall it has been thoroughly enjoyable.&lt;/p&gt;
+&lt;p&gt;A few shots stand out more than others, but the one that caught the most attention was actually completely random.  On January 24th I had to walk from one client to another in the middle of a rather blustery Chicago snowstorm.  I had a vague idea of how to get from A to B, but didn't have a specific route in mind. I just started walking and snapping pictures as I went. A few turns in the general direction I found myself in front of a row of very interesting looking townhomes in the River North neighborhood. Thankfully nobody was parked in front so I took a quick photo and kept walking. &lt;/p&gt; 
+&lt;img src=&quot;/images/pom_january.jpg&quot; /&gt;
+&lt;p&gt;The image was captured at f9.5 at 1/90, ISO 100. I intentionally kept my shutter speed down to catch the snow swirling in front of the lens. I was not sure of exactly how it would show up after processing, but I love how it turned out. I'm undecided if this one will make it to print or portfolio, but it looks beautiful as a desktop image on my Cinema Display. One month down, eleven to go!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Flight</title>
@@ -662,7 +675,7 @@
       <pubDate>Fri, 24 Apr 2009 13:03:54 -0500</pubDate>
       <author>chris@gorilla-studios.com (Chris Peak)</author>
       <guid>http://www.gorilla-studios.com/2009/04/24/my-desktop-friday-at-5pm</guid>
-      <description>&lt;img title='My Desktop' src='/images/geek_desktop.jpg' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</description>
+      <description>&lt;img src='/images/geek_desktop.jpg' title='My Desktop' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</description>
     </item>
     
     <item>
