@@ -8,8 +8,13 @@ body {
   margin: 0; 
 }
 
-a, a:visited { color: #6da04b; }
-a:hover { color: #000; }
+a, a:visited { 
+  color: #6da04b; 
+  text-decoration: none;  
+}
+a:hover { 
+  color: #000; 
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: #444;
