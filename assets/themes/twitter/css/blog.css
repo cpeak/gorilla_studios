@@ -2,8 +2,8 @@
 
 body {
   border-top: 4px solid #ACC28F;
-  font-family: "SourceSansProLight", serif;
-  font-size: 20px;
+  font-family: "proxima_novalight", serif;
+  font-size: 18px;
   padding: 0;
   margin: 0; 
 }
@@ -25,17 +25,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; 
 }
 
-/* h2 { 
-  font-size: 2.369em; 
-  line-height: 0.63317856em;
-  margin-bottom: 0.63317856em;
-} */
 h3 { 
   font-size: 1.777em; 
   line-height: 0.8441193em;
   margin-bottom: 0.8441193em;
 }
-h4 { font-size: 32px; } 
+h4 { 
+  font-size: 1.333em; } 
 h5 { font-size: 25px; }
 
 p {

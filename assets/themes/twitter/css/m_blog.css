@@ -54,12 +54,11 @@ header a { text-decoration: none; border: none; }
 .nav li { display: inline; }
 
 .nav li a {
-  color: #aaa; 
-  font-family: "SourceSansProRegular", sans-serif;
-  font-weight: 400;
-  font-size: .7em; 
-  text-transform: uppercase;
-  padding: 3px 10px;
+color: #bbb; 
+       font-weight: 400;
+       font-size: .7em; 
+       text-transform: uppercase;
+padding: 3px 10px;
 }
 
 .nav li a:hover { border-bottom: 2px solid #ACC28F; color: #000 !important;  }
@@ -90,7 +89,7 @@ header a { text-decoration: none; border: none; }
 }
 
 .tweet_list li { 
-  line-height: 1.4em; 
+  line-height: 1.2em; 
   margin-bottom: 5px; 
   padding: 5px 10px;
   text-align: left; 
@@ -99,7 +98,7 @@ header a { text-decoration: none; border: none; }
 .tweet_avatar {
   float: left; 
   display: block;
-  margin: 5px 3px 0px 0px;
+  margin: 5px 8px 0px 0px;
 }
 
 /* ############################################## */
@@ -134,27 +133,15 @@ footer p {
 }
 
 @font-face {
-  font-family: 'SourceSansProLightItalic'; /* Post copy italic */
-  src: url('/type/SourceSansPro-LightIt-webfont.eot');
-  src: url('/type/SourceSansPro-LightIt-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/type/SourceSansPro-LightIt-webfont.woff') format('woff'),
-       url('/type/SourceSansPro-LightIt-webfont.ttf') format('truetype'),
-       url('/type/SourceSansPro-LightIt-webfont.svg#SourceSansProLightItalic') format('svg');
+  font-family: 'proxima_novalight';
+  src: url('/type/proximanova-light-webfont.eot');
+  src: url('/type/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/type/proximanova-light-webfont.woff') format('woff'),
+       url('/type/proximanova-light-webfont.ttf') format('truetype'),
+       url('proximanova-light-webfont.svg#proxima_novalight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'SourceSansProRegular'; /* Navigation */
-  src: url('/type/SourceSansPro-Regular-webfont.eot');
-  src: url('/type/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/type/SourceSansPro-Regular-webfont.woff') format('woff'),
-       url('/type/SourceSansPro-Regular-webfont.ttf') format('truetype'),
-       url('/type/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'LeagueGothicRegular'; /* Headlines */
   src: url('/type/League_Gothic-webfont.eot');
