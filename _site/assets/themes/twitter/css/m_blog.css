@@ -449,11 +449,6 @@ input[type="text"], textarea {
     width: 99%; 
   }
 
-  /* CONTACT PAGE */
-  input[type="text"], textarea { 
-    padding: 4px;
-    width: 100%; 
-  }
 
   #contact-other { margin-top: 20px; }
 
