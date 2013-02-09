@@ -25,8 +25,8 @@
 .container {
   margin: 0 auto;
   overflow: hidden; 
-  width: 95%;
-  max-width: 1100px;  
+  width: 80%;
+  max-width: 1000px;  
 }
 
 .content { 
@@ -71,12 +71,10 @@ padding: 3px 10px;
 .m_sidebar {
   float: right;
   font-size: .8em;
-  margin-top: 20px; 
   text-align: center; 
   width: 22%;
 }
 
-.m_sidebar h5 { margin-top: 20px; }
 
 .affiliate_link a {
   background-image: url('/images/borrow_lenses.jpg');
@@ -107,7 +105,7 @@ padding: 3px 10px;
 
 footer {
   float: left; 
-  margin-top: 40px; 
+  margin: 40px 0px; 
   width: 100%; 
 }
 footer p {
@@ -166,12 +164,9 @@ code {
 
 .m_blog { /* Blog posts container */
   float: left; 
-  width: 75%;
-  max-width: 800px; 
+  width: 70%;
 }
-.post { border: 1px solid #fff; }
 
-.m_post_date { border: 1px solid #fff;} 
 .m_post_date a { /* ### Blog Post Title ### */
   color: #333;
   font-family: "LeagueGothicRegular";
@@ -181,7 +176,6 @@ code {
 }
 
 .m_post_date a:hover { color: #5A7D5F; }
-
 .post img,
 .span8 img {
   display: block;
@@ -193,7 +187,7 @@ code {
 .m_post_break {	/* Dashed post separator */
   border-bottom: 1px dashed #777; 
   margin: 0 auto 1.45em auto;
-  width: 500px;
+  width: 70%;
 }
 
 .quote {
@@ -207,6 +201,10 @@ code {
 
 .pagination { text-align: center; }
 .pagination ul li { display: inline; }
+.pagination a {
+  margin: 0 5px;
+  padding: 5px;
+}
 
 
 /* ############################################## */
@@ -333,11 +331,15 @@ input[type="text"], textarea {
   }
 
   h2.mobile_center { text-align: center; }
+
   .m_blog {
     float: none;
     margin: 0 auto;
     width: 95%;
   }
+
+  .l_full_column > article { width: 100%; }
+
   .l_half_col { 
     float: none !important; 
     width: 95%; 
@@ -414,6 +416,8 @@ input[type="text"], textarea {
     margin: 0 auto;
     width: 95%;
   }
+  .l_full_column > article { width: 100%; }
+
   .l_half_col { 
     float: none !important; 
     width: 95%; 
