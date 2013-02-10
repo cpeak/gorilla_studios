@@ -400,16 +400,22 @@ input[type="text"], textarea {
   .nav {
     padding: 0;
     float: right;
-    margin: 0;
+    margin: 10px 0px 0px 0px;
     width: 45% !important;
   }
-  .nav li a {
+  .nav li {
     border-bottom: 1px solid #ccc;  
-    color: #333; 
     display: block;
     margin: 5px 0px;
-    padding: 8px;
     text-align: center; 
+  }
+  .nav li:last-child {
+    border: none;
+  }
+  .nav li a {
+    display: block;
+    color: #333;
+    padding: 8px;
   }
   .m_blog {
     float: none;
