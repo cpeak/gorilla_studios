@@ -120,16 +120,6 @@ footer p {
 /* ############################################## */
 /* ################## TYPE =T ################### */
 
-@font-face { 
-  font-family: 'SourceSansProLight';  /* Post copy type */
-  src: url('/type/SourceSansPro-Light-webfont.eot');
-  src: url('/type/SourceSansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/type/SourceSansPro-Light-webfont.woff') format('woff'),
-       url('/type/SourceSansPro-Light-webfont.ttf') format('truetype'),
-       url('/type/SourceSansPro-Light-webfont.svg#SourceSansProLight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'proxima_novalight';
