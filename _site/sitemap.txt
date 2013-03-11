@@ -10,6 +10,7 @@ http://www.gorilla-studios.com/pages.html
 http://www.gorilla-studios.com/photo365.html
 http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
+http://www.gorilla-studios.com/store.html
 http://www.gorilla-studios.com/tags.html
 
 http://www.gorilla-studios.com/2013/03/11/coming-soon

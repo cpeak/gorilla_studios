@@ -235,3 +235,11 @@ input[type="text"], textarea {
   max-width: 100%;
 }
 
+/* ############################################## */
+/* ############ STORE ########################### */
+
+.sale_item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5em; 
+  padding-bottom: 1em;
+}
