@@ -243,3 +243,32 @@ input[type="text"], textarea {
   margin-bottom: 1.5em; 
   padding-bottom: 1em;
 }
+
+.print_options {
+  font-size: .8em;
+  border-collapse: collapse;
+  margin-top: 6em;
+  margin-bottom: 1em;
+  text-align: center;
+  width: 100%;
+}
+.print_options th {
+  padding-bottom: 4px;
+}
+.print_options td {
+  border: 1px solid #ddd;
+  padding: 8px 5px;
+  width: 75px;
+}
+
+.print_options td.print_type {
+  background: #eee;
+  width: 100px;
+}
+
+.print_disclaimer {
+  color: #999;
+  font-size: .7em;
+  font-style: italic;
+  padding: 20px 20px 0px 20px;
+}
