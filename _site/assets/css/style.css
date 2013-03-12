@@ -21,7 +21,7 @@ header .row {
   border: none;
 }
 .nav li a {
-  border-left: 2px solid #ccc;
+  border-left: 1px solid #ccc;
   color: #999; 
   font-size: .9em;
   font-weight: 400;
