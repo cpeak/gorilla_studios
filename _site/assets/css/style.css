@@ -11,7 +11,8 @@ header .row {
   padding: 10px 0px 20px 0px;
 }
 .nav {
-  padding-top: 5%;
+  float: right;
+  padding-top: 6%;
   margin-left: 20px;
 }
 .nav li {
@@ -23,9 +24,10 @@ header .row {
 .nav li a {
   border-left: 1px solid #ccc;
   color: #999; 
-  font-size: .9em;
+  font-size: .8em;
   font-weight: 400;
   padding: 5px 25px;
+  text-transform: uppercase;
 }
 
 .nav li a:hover { color: #000;  }
