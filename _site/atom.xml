@@ -4,7 +4,7 @@
  <title>Gorilla-Studios</title>
  <link href="http://www.gorilla-studios.com/atom.xml" rel="self"/>
  <link href="http://www.gorilla-studios.com"/>
- <updated>2013-03-22T00:08:33-05:00</updated>
+ <updated>2013-03-22T17:02:24-05:00</updated>
  <id>http://www.gorilla-studios.com</id>
  <author>
    <name></name>
@@ -361,7 +361,7 @@
    <link href="http://www.gorilla-studios.com/2011/12/16/watching-the-storm-roll-through"/>
    <updated>2011-12-16T10:45:10-06:00</updated>
    <id>http://www.gorilla-studios.com/2011/12/16/watching-the-storm-roll-through</id>
-   <content type="html">&lt;a href='/images/CRW_1453.jpg' rel='lightbox[unique]'&gt;&lt;img src='/images/CRW_1453s.jpg' /&gt;&lt;/a&gt;</content>
+   <content type="html">&lt;a rel='lightbox[unique]' href='/images/CRW_1453.jpg'&gt;&lt;img src='/images/CRW_1453s.jpg' /&gt;&lt;/a&gt;</content>
  </entry>
  
  <entry>
