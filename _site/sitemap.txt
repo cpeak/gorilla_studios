@@ -2,6 +2,7 @@
 http://www.gorilla-studios.com/about.html
 http://www.gorilla-studios.com/archive.html
 http://www.gorilla-studios.com/atom.xml
+http://www.gorilla-studios.com/blog.html
 http://www.gorilla-studios.com/categories.html
 http://www.gorilla-studios.com/contact.html
 http://www.gorilla-studios.com/gallery.html

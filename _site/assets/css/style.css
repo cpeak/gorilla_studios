@@ -48,10 +48,10 @@ header .row {
 }
 
 .tweet_list li { 
+  background: #fff;
   font-size: .8em;
   line-height: 1.2em; 
-  margin-bottom: 5px; 
-  padding: 5px 10px;
+  padding: 10px;
   text-align: left; 
 }
 
@@ -104,10 +104,39 @@ code {
   font-size: .75em; 
 }
 
+/* ############################################## */
+/* ########### NEW INDEX PAGE ################### */
+#main_promo {
+  margin-bottom: 2em;
+  height: 450px;
+}
+.sub_promos section {
+}
+.sub_promos h2 {
+  border-bottom: 4px solid #ACC28F;
+  margin-bottom: 10px;
+}
+
+.read_more { float: right; }
+
+.blog_preview h3 {
+  margin: 0;
+}
+.blog_preview p {
+  font-size: .8em;
+  line-height: 1.2em;
+  padding-bottom: 5px;
+}
+
+#index_365 img { width: 100%; }
+#index_365 h3 { text-align: right; margin: 5px 0px; }
 
 /* ############################################## */
-/* ########### =H HOME PAGE - POSTS ############# */
+/* ########### =P - POSTS ############# */
 
+.m_post_date {
+  margin: 0px 0px 1em 150px;
+}
 .m_post_date a { /* ### Blog Post Title ### */
   color: #333;
   font-family: "LeagueGothicRegular";
@@ -120,16 +149,18 @@ code {
 
 .post img,
 .span8 img {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #ddd;
   display: block;
   margin: 0 auto 1.5em auto;
   max-width: 100%; 
 }
 
-
-.m_post_break {	/* Dashed post separator */
-  border-bottom: 1px dashed #777; 
-  margin: 0 auto 1.45em auto;
-  width: 70%;
+.post p {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .quote {

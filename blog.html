@@ -1,0 +1,21 @@
+---
+layout: page
+title: Blog 
+tagline: Blog 
+---
+<div class="row">
+  <section class="twelve columns">
+    {% for post in site.posts limit:10 %}
+    <div class="m_post_date"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> &raquo; <span>{{ post.date | date_to_string }}</span></div>
+      <div class="post">
+        {% include JB/post_content %}
+        <hr>
+      </div>
+    {% endfor %}
+    <div class="post">
+      <p><a href="/archive.html">Older Posts &raquo;</a></p>
+    </div>
+  </section>
+
+</div>
+
