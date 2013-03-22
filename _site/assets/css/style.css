@@ -109,6 +109,7 @@ code {
 #main_promo {
   margin-bottom: 2em;
   height: 470px;
+  overflow: visible;
 }
 .sub_promos section {
 }

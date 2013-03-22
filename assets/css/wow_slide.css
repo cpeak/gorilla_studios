@@ -1,8 +1,8 @@
 #wowslider-container1 { 
 	zoom: 1; 
 	position: relative; 
-	max-width:965px;
-	margin:10px auto 78px;
+	max-width: 999px;
+	margin: 0px 0px 78px 0px;
 	z-index:90;
 	border:none;
 	text-align:left; /* reset align=center */
@@ -83,7 +83,7 @@
 #wowslider-container1 a.ws_prev {	position:absolute;	display:block;	top:50%;	margin-top:-28px;	z-index:60;	height: 56px;	width: 29px;	background-image: url(/images/arrows.png);}
 #wowslider-container1 a.ws_next{	background-position: 100% 0; 	right:-29px;}
 #wowslider-container1 a.ws_prev {	left:-29px;	background-position: 0 0; }/* bottom center */
-#wowslider-container1  .ws_bullets {    bottom:-24px;	left:50%;}
+#wowslider-container1  .ws_bullets { bottom: -32px;	left:50%;}
 #wowslider-container1  .ws_bullets div{	left:-50%;}
 #wowslider-container1 .ws_bullets .ws_bulframe {	bottom: 20px;}
 #wowslider-container1 .ws-title {	position: absolute;	bottom:18px;	left: 18px;	margin-right:23px;	z-index: 50;	padding:5px;	color: #FFF;	background:#000;    font-family: Tahoma,Arial,Helvetica;	font-size: 14px;	opacity:0.6;	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);	}
