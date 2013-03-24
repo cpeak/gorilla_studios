@@ -113,8 +113,9 @@ code {
 .sub_promos section {
 }
 .sub_promos h2 {
-  border-bottom: 4px solid #ACC28F;
-  margin-bottom: 10px;
+  border-bottom: 6px solid #ACC28F;
+  font-size: 1.75em;
+  margin-bottom: 15px;
 }
 
 .read_more { float: right; }
