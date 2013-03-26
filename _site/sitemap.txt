@@ -5,10 +5,10 @@ http://www.gorilla-studios.com/atom.xml
 http://www.gorilla-studios.com/blog.html
 http://www.gorilla-studios.com/categories.html
 http://www.gorilla-studios.com/contact.html
-http://www.gorilla-studios.com/gallery.html
 http://www.gorilla-studios.com/index.html
 http://www.gorilla-studios.com/pages.html
 http://www.gorilla-studios.com/photo365.html
+http://www.gorilla-studios.com/portfolio.html
 http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/store.html

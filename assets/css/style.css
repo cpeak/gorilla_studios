@@ -253,6 +253,13 @@ input[type="text"], textarea {
   vertical-align: middle; 
 }
 
+/* ############################################## */
+/* ############ PORTFOLIO PAGE ################## */
+
+.sub-galleries .columns {
+  border: 1px solid red;
+  height: 200px;
+}
 
 
 /* ############################################## */
