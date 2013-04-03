@@ -159,6 +159,10 @@ code {
   max-width: 100%; 
 }
 
+.post h3 {
+  max-width: 720px;
+  margin: 0px auto 10px auto;
+}
 .post p {
   max-width: 700px;
   margin: 0 auto;
