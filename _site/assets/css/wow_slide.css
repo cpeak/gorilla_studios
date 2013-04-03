@@ -1,8 +1,8 @@
 #wowslider-container1 { 
 	zoom: 1; 
 	position: relative; 
-	max-width: 999px;
-	margin: 0px 0px 78px 0px;
+	max-width: 966px;
+	margin: 0 auto;
 	z-index:90;
 	border:none;
 	text-align:left; /* reset align=center */
