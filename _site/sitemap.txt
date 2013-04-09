@@ -14,6 +14,7 @@ http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/store.html
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/04/09/geneva-sundown
 http://www.gorilla-studios.com/2013/04/01/photo-of-the-month
 http://www.gorilla-studios.com/2013/03/11/coming-soon
 http://www.gorilla-studios.com/2013/03/02/photo-of-the-month
