@@ -6,8 +6,8 @@
     <atom:link href="http://www.gorilla-studios.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Gorilla-Studios Photography &amp; Design</description>
     <language>en-us</language>
-    <pubDate>Fri, 12 Apr 2013 11:01:01 -0500</pubDate>
-    <lastBuildDate>Fri, 12 Apr 2013 11:01:01 -0500</lastBuildDate>
+    <pubDate>Sat, 13 Apr 2013 00:23:53 -0500</pubDate>
+    <lastBuildDate>Sat, 13 Apr 2013 00:23:53 -0500</lastBuildDate>
 
     
     <item>
@@ -420,7 +420,7 @@
       <pubDate>Fri, 16 Dec 2011 10:45:10 -0600</pubDate>
       <author>chris@gorilla-studios.com (Chris Peak)</author>
       <guid>http://www.gorilla-studios.com/2011/12/16/watching-the-storm-roll-through</guid>
-      <description>&lt;a rel='lightbox[unique]' href='/images/CRW_1453.jpg'&gt;&lt;img src='/images/CRW_1453s.jpg' /&gt;&lt;/a&gt;</description>
+      <description>&lt;a href='/images/CRW_1453.jpg' rel='lightbox[unique]'&gt;&lt;img src='/images/CRW_1453s.jpg' /&gt;&lt;/a&gt;</description>
     </item>
     
     <item>
@@ -747,7 +747,7 @@
       <pubDate>Fri, 24 Apr 2009 13:03:54 -0500</pubDate>
       <author>chris@gorilla-studios.com (Chris Peak)</author>
       <guid>http://www.gorilla-studios.com/2009/04/24/my-desktop-friday-at-5pm</guid>
-      <description>&lt;img src='/images/geek_desktop.jpg' title='My Desktop' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</description>
+      <description>&lt;img title='My Desktop' src='/images/geek_desktop.jpg' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</description>
     </item>
     
     <item>
