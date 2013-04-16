@@ -4,7 +4,7 @@
  <title>Gorilla-Studios</title>
  <link href="http://www.gorilla-studios.com/atom.xml" rel="self"/>
  <link href="http://www.gorilla-studios.com"/>
- <updated>2013-04-15T06:39:29-05:00</updated>
+ <updated>2013-04-16T09:25:22-05:00</updated>
  <id>http://www.gorilla-studios.com</id>
  <author>
    <name></name>
@@ -681,7 +681,7 @@
    <link href="http://www.gorilla-studios.com/2009/04/24/my-desktop-friday-at-5pm"/>
    <updated>2009-04-24T13:03:54-05:00</updated>
    <id>http://www.gorilla-studios.com/2009/04/24/my-desktop-friday-at-5pm</id>
-   <content type="html">&lt;img title='My Desktop' src='/images/geek_desktop.jpg' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</content>
+   <content type="html">&lt;img src='/images/geek_desktop.jpg' title='My Desktop' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</content>
  </entry>
  
  <entry>
