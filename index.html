@@ -44,8 +44,7 @@ header : Home
   <section class="four columns blog_preview">
     <h2>Blog</h2>
     {% for post in site.posts limit:1 %}
-      {{ post.content | truncatewords:100}}
-      <!-- <a class="read_more" href="{{ BASE_PATH }}{{ post.url }}">(read more...)</a> -->
+      {{ post.content | truncatewords:20}}
       <a class='read_more' href='/blog.html' />(read more...)</a>
     {% endfor %}
   </section>

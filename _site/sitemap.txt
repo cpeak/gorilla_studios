@@ -15,6 +15,7 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/05/05/photo-of-the-month
 http://www.gorilla-studios.com/2013/04/20/cable-organization
 http://www.gorilla-studios.com/2013/04/12/chicago-lakefront
 http://www.gorilla-studios.com/2013/04/09/geneva-sundown
