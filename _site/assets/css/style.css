@@ -160,7 +160,8 @@ code {
   max-width: 100%; 
 }
 
-.post h3 {
+.post h3,
+.post h4{
   max-width: 720px;
   margin: 0px auto 10px auto;
 }
