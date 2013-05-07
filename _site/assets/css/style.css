@@ -254,9 +254,25 @@ input[type="text"], textarea {
   padding: 4px;
   width: 90%; 
 }
-.social_links {
-  margin: 5px 0px; 
-  vertical-align: middle; 
+
+.social-link {
+   border-spacing: 10px;
+}
+.social-link td {
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
+  background: #f9f9f9;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+}
+.social-link a {
+  display: block;
+  padding-top: 23px;
+  height: 100px;
+}
+.social-link img {
+  width: 50px;
 }
 
 /* ############################################## */
