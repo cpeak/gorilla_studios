@@ -301,7 +301,7 @@ input[type="text"], textarea {
 /* ############################################## */
 /* ############ STORE ########################### */
 
-
+/* iPhone landscape */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) { 
@@ -422,6 +422,9 @@ and (orientation : portrait) {
     width: 318px !important; 
   }
   .blog_preview p { font-size: 13px; }
+  .tweet_list { 
+    font-size: 18px;
+  }
 
 
   /* About */
