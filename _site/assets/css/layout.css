@@ -46,8 +46,8 @@ h5 { font-size: 25px; }
 hr { 
   border: 0;
   border-top: 1px solid #bbb;
-  width: 60%; 
-  margin: 2em auto; 
+  max-width: 940px; 
+  margin: 1em auto; 
 }
 
 img { max-width: 100%; }
@@ -85,7 +85,7 @@ ul {
 
 /* LAYOUT */
 .row {
-  width: 1022px;   /* ########### SIDE WIDE WIDTH! ######### */
+  width: 960px;   /* ########### SIDE WIDE WIDTH! ######### */
   max-width: 100%;
   min-width: 768px;
   margin: 0 auto;

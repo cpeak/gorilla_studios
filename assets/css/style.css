@@ -3,12 +3,10 @@
 /* ############################################## */
 /* ######## HEADER & NAVIGATION =N ############## */
 header {
-  margin-bottom: 40px;
 }
 header a { text-decoration: none; border: none; }
 header .row {
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0px 20px 0px;
+  padding: 10px 0px 0px 0px;
 }
 .nav {
   float: right;
@@ -158,6 +156,9 @@ code {
   display: block;
   margin: 0 auto 1.5em auto;
   max-width: 100%; 
+}
+.post {
+  padding-bottom: 1em;
 }
 
 .post h3,
