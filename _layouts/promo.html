@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include common-header.html %}
+  </head>
+
+  <body>
+    <header class='marquee'>
+    <div class="row header_content">
+      <section id='branding' class="two columns">
+       <a href="/"><img src="/images/gostu-white.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
+      </section>
+      <section id='navigation' class="ten columns">
+        {% include navigation.html %}
+      </section>
+    </div>
+
+    <div class='row headlines'>
+      <section class='twelve columns'>
+        <h1>Gorilla-Studios</h1>
+        <h2>Photography &amp; Design</h2>
+      </section>
+    </div>
+  </header>
+
+  {{ content }}
+
+  <footer>
+    {% include footer.html %}
+  </footer>
+</body>
+</html>

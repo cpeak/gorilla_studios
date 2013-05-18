@@ -1,7 +1,6 @@
 body {
-  background: #f2f2f2;
-  border-top: 4px solid #ACC28F;
-  font-family: "franklin-gothic-urw",sans-serif;
+  background: #f4f4f4;
+  font-family: "franklin-gothic-urw", "Avenir", serif;
   font-style: normal;
   font-weight: 300;
   
@@ -20,6 +19,10 @@ body {
 a, a:visited { 
   color: #6da04b; 
   text-decoration: none;  
+  -webkit-transition:color 0.15s ease-in;  
+  -moz-transition:color 0.15s ease-in;  
+  -o-transition:color 0.15s ease-in;  
+  transition: all 0.15s ease-in; 
 }
 a:hover { 
   color: #000; 
@@ -34,6 +37,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0; 
 }
 
+h1 { font-size: 3.157em; }
+h2 { font-size: 2.369em; }
 h3 { 
   font-size: 1.777em; 
   line-height: 0.8441193em;
@@ -42,13 +47,6 @@ h3 {
 
 h4 { font-size: 1.333em; } 
 h5 { font-size: 25px; }
-
-hr { 
-  border: 0;
-  border-top: 1px solid #bbb;
-  max-width: 940px; 
-  margin: 1em auto; 
-}
 
 img { max-width: 100%; }
 

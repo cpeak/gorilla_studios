@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+        <meta charset="utf-8">
     <title>Photoshop Quick Tip - Lens Correction</title>
     
     <meta name="author" content="">
@@ -17,7 +17,6 @@
     <link href="/assets/css/layout.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/photoswipe.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/wow_slide.css" rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="//use.typekit.net/efo2uvx.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -55,34 +54,33 @@
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-
+ 
   </head>
 
   <body>
-    <header>
-    <div class="row">
+    <header class='normal'>
+    <div class="row header_content">
       <section id='branding' class="two columns">
         <a href="/"><img src="/images/gostu.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
       </section>
       <section id='navigation' class="ten columns">
         <div class="navbar cf">
-          <ul class="nav">
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a href="/photo365.html">Photo 365</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-          </ul>
-        </div>
+  <ul class="nav">
+    <li><a href="/blog.html">Blog</a></li>
+    <li><a href="/portfolio.html">Portfolio</a></li>
+    <li><a href="/photo365.html">Photo 365</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+</div>
+
       </section>
     </div>
   </header>
 
-  <hr> 
   <div class="row">
 <article class="column ten offset-by-one post">
   <h3>Photoshop Quick Tip - Lens Correction</h3>
-  <p>I love shooting in downtown Chicago, but one of the hazards you run into is something called the Keystone Effect - a distortion of taller buildings and structures.  A few days after our wedding, the wife and I took a day trip into the city with our cameras in tow. After a fun afternoon at the Shedd Aquarium we walked back up along the lake and I took a quick shot of the skyline. Here you can see the shot before editing.  I added quick lines to show how the buildings are leaning in towards the center of frame and you will notice this effect getting worse the farther from center they are.  This is a great example of the Keystone Effect.</p><img src='/images/before_wlines.jpg' alt='Distorted image correction' /><p>To take care of this we are going to use a Photoshop filter called <strong>Filter > Distort > Lens Correction</strong>.   Here is the control panel for this particular filter.</p><img src='/images/lens-correction.jpg' alt='Photoshop Lens Correction Filter' /><p>Leave the grid on and take a look over at the Transform section towards the bottom right.  There you will find a slider for 'Vertical Perspective'.  Here you can adjust your photo and make sure everything lines up the way it should, taking care of that Keystone Effect.  For this particular example I adjusted it to -15, this got most of the buildings in the shot back to vertical, especially Aon Center and Trump Tower.  Once you make your adjustment you will notice that the bottom of your photo has been compressed in a bit leaving some bare canvas on either bottom corner. This is due to the fact Photoshop has basically tilted the entire plane of the photo towards you, hinging on the center line - therefore the bottom of the image is smaller and the top is larger.  Just crop the photo to ensure you don't have any blank areas on either corner. Here we can see the before and after:</p><img src='/images/before_after.jpg' alt='Keystone effect before after' /><p>It is details like this that can sometimes make or break a photograph so keep an eye out for this effect when shooting large buildings or have a lot of vertical lines in your photo.</p><p>Have fun and keep shooting!</p>
+  <p>I love shooting in downtown Chicago, but one of the hazards you run into is something called the Keystone Effect - a distortion of taller buildings and structures.  A few days after our wedding, the wife and I took a day trip into the city with our cameras in tow. After a fun afternoon at the Shedd Aquarium we walked back up along the lake and I took a quick shot of the skyline. Here you can see the shot before editing.  I added quick lines to show how the buildings are leaning in towards the center of frame and you will notice this effect getting worse the farther from center they are.  This is a great example of the Keystone Effect.</p><img alt='Distorted image correction' src='/images/before_wlines.jpg' /><p>To take care of this we are going to use a Photoshop filter called <strong>Filter > Distort > Lens Correction</strong>.   Here is the control panel for this particular filter.</p><img alt='Photoshop Lens Correction Filter' src='/images/lens-correction.jpg' /><p>Leave the grid on and take a look over at the Transform section towards the bottom right.  There you will find a slider for 'Vertical Perspective'.  Here you can adjust your photo and make sure everything lines up the way it should, taking care of that Keystone Effect.  For this particular example I adjusted it to -15, this got most of the buildings in the shot back to vertical, especially Aon Center and Trump Tower.  Once you make your adjustment you will notice that the bottom of your photo has been compressed in a bit leaving some bare canvas on either bottom corner. This is due to the fact Photoshop has basically tilted the entire plane of the photo towards you, hinging on the center line - therefore the bottom of the image is smaller and the top is larger.  Just crop the photo to ensure you don't have any blank areas on either corner. Here we can see the before and after:</p><img alt='Keystone effect before after' src='/images/before_after.jpg' /><p>It is details like this that can sometimes make or break a photograph so keep an eye out for this effect when shooting large buildings or have a lot of vertical lines in your photo.</p><p>Have fun and keep shooting!</p>
 </article>
 </div>
 
@@ -99,10 +97,25 @@
 </div>
 
 
-  <div class="row">
-    <footer class="twelve columns">
-      <p>&copy;2013 Gorilla-Studios</p>
-    </footer>
-  </div>
+  <footer>
+    <div class='row'>
+  <section class='four columns'>
+    <p><img class='left headshot' src='/images/headshot-footer.jpg' alt='Chris Peak, Chicago based Photographer' />I am a photographer and web-developer from Chicago, IL. Specializing in landscape and nature photography, I also love shooting portraits, band promos, and concert photography whenever I get the chance. I have been lucky enough to shoot in Chicago, New York, Tokyo, London, and more. Gorilla-Studios is a place for me to showcase my growing portfolio while offering advice and support to photographers no matter what their skill level.</p>
+  </section>
+  <section class='four columns'>
+    <p class='centered'>&copy;2013 Gorilla-Studios</p>
+  </section>
+  <section class='four columns'>
+    <ul class='footer-nav'>
+      <li><a href='/'>Home</a></li>
+      <li><a href='/blog.html'>Blog</a></li>
+      <li><a href='/portfolio.html'>Portfolio</a></li>
+      <li><a href='/photo365.html'>Photo365</a></li>
+      <li><a href='/contact.html'>Contact</a></li>
+    </ul>
+  </section>
+</div>
+
+  </footer>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+        <meta charset="utf-8">
     <title>Gorilla-Studios</title>
     
     <meta name="author" content="">
@@ -17,7 +17,6 @@
     <link href="/assets/css/layout.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/photoswipe.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/wow_slide.css" rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="//use.typekit.net/efo2uvx.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -59,26 +58,32 @@
   </head>
 
   <body>
-    <header>
-    <div class="row">
+    <header class='marquee'>
+    <div class="row header_content">
       <section id='branding' class="two columns">
-        <a href="/"><img src="/images/gostu.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
+       <a href="/"><img src="/images/gostu-white.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
       </section>
       <section id='navigation' class="ten columns">
         <div class="navbar cf">
-          <ul class="nav">
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a href="/photo365.html">Photo 365</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-          </ul>
-        </div>
+  <ul class="nav">
+    <li><a href="/blog.html">Blog</a></li>
+    <li><a href="/portfolio.html">Portfolio</a></li>
+    <li><a href="/photo365.html">Photo 365</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+  </ul>
+</div>
+
+      </section>
+    </div>
+
+    <div class='row headlines'>
+      <section class='twelve columns'>
+        <h1>Gorilla-Studios</h1>
+        <h2>Photography &amp; Design</h2>
       </section>
     </div>
   </header>
 
-  <hr> 
   <script src="/assets/js/klass.min.js"></script>
 <script src="/assets/js/code.photoswipe-3.0.5.min.js"></script>
 <script>
@@ -86,37 +91,6 @@
   var myPhotoSwipe = Code.PhotoSwipe.attach( window.document.querySelectorAll('#index_365 a'), { enableMouseWheel: false , enableKeyboard: false } );
   }, false);
 </script>
-
-<div class="row" id="main_promo">
-  <section class="twelve columns">
-    <div id="wowslider-container1">
-      <div class="ws_images">
-        <ul>
-          <li><img src="/images/slider/london_eye.jpg" alt="London Eye" title="The London Eye" id="wows1_0"/></li>
-          <li><img src="/images/slider/grant_park.jpg" alt="Chicago Skyline" title="Chicago Skyline" id="wows1_1"/></li>
-          <li><img src="/images/slider/cadillac.jpg" alt="The Cadillac Casanovas" title="The Cadillac Casanovas rocking the Arcada" id="wows1_2"/></li>
-          <li><img src="/images/slider/chicago_harbor_light.jpg" alt="Chicago Harbor Light" title="Chicago Harbor Light" id="wows1_3"/></li>
-          <li><img src="/images/slider/leroy_oaks.jpg" alt="Trees At Leroy Oaks" title="Trees At Leroy Oaks" id="wows1_4"/></li>
-          <li><img src="/images/slider/thomas.jpg" alt="Thomas Oyster Co." title="Thomas Oyster Co." id="wows1_5"/></li>  
-        </ul>
-      </div>
-    <div class="ws_bullets">
-      <div>
-        <a href="#" title="London Eye"><img src="/images/tooltips/london_eye.jpg" alt="London Eye"/>2</a>
-        <a href="#" title="Chicago Skyline"><img src="/images/tooltips/grant_park.jpg" alt="Chicago Skyline"/>2</a>
-        <a href="#" title="Cadillac Casanovas"><img src="/images/tooltips/cadillac.jpg" alt="The Cadillac Casanovas"/>3</a>
-        <a href="#" title="Chicago Harbor Light"><img src="/images/tooltips/8525941111_725186cfa6_b.jpg" alt="8525941111_725186cfa6_b"/>1</a>
-        <a href="#" title="Trees At Leroy Oaks"><img src="/images/tooltips/leroy_oaks.jpg" alt="Trees At Leroy Oaks"/>5</a>
-        <a href="#" title="Thomas Oyster Co."><img src="/images/tooltips/thomas.jpg" alt="Thomas Oyster Co."/>6</a>
-      </div>
-    </div>
-    <div class="ws_shadow"></div>
-  </div>
-  <script type="text/javascript" src="/assets/js/wowslider.js"></script>
-  <script type="text/javascript" src="/assets/js/script.js"></script>
-
-  </section>
-</div>
 
 <div class="row sub_promos">
   <section class="four columns blog_preview">
@@ -130,8 +104,8 @@
 
   <section class="four columns" id="index_365">
     <h2>Photo 365</h2>
-    <a href="/images/pod/134_full.jpg"><img src="/images/pod/134.jpg"></a>
-    <h3>Day 134</h3>
+    <a href="/images/pod/136_full.jpg"><img src="/images/pod/136.jpg"></a>
+    <h3>Day 136</h3>
   </section>
 
   <section class="four columns">
@@ -142,10 +116,25 @@
 
 
 
-  <div class="row">
-    <footer class="twelve columns">
-      <p>&copy;2013 Gorilla-Studios</p>
-    </footer>
-  </div>
+  <footer>
+    <div class='row'>
+  <section class='four columns'>
+    <p><img class='left headshot' src='/images/headshot-footer.jpg' alt='Chris Peak, Chicago based Photographer' />I am a photographer and web-developer from Chicago, IL. Specializing in landscape and nature photography, I also love shooting portraits, band promos, and concert photography whenever I get the chance. I have been lucky enough to shoot in Chicago, New York, Tokyo, London, and more. Gorilla-Studios is a place for me to showcase my growing portfolio while offering advice and support to photographers no matter what their skill level.</p>
+  </section>
+  <section class='four columns'>
+    <p class='centered'>&copy;2013 Gorilla-Studios</p>
+  </section>
+  <section class='four columns'>
+    <ul class='footer-nav'>
+      <li><a href='/'>Home</a></li>
+      <li><a href='/blog.html'>Blog</a></li>
+      <li><a href='/portfolio.html'>Portfolio</a></li>
+      <li><a href='/photo365.html'>Photo365</a></li>
+      <li><a href='/contact.html'>Contact</a></li>
+    </ul>
+  </section>
+</div>
+
+  </footer>
 </body>
 </html>
