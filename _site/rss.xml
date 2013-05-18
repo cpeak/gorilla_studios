@@ -6,8 +6,8 @@
     <atom:link href="http://www.gorilla-studios.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Gorilla-Studios Photography &amp; Design</description>
     <language>en-us</language>
-    <pubDate>Sat, 18 May 2013 11:16:47 -0500</pubDate>
-    <lastBuildDate>Sat, 18 May 2013 11:16:47 -0500</lastBuildDate>
+    <pubDate>Sat, 18 May 2013 14:40:12 -0500</pubDate>
+    <lastBuildDate>Sat, 18 May 2013 14:40:12 -0500</lastBuildDate>
 
     
     <item>
@@ -499,7 +499,7 @@
       <pubDate>Fri, 16 Dec 2011 10:45:10 -0600</pubDate>
       <author>chris@gorilla-studios.com (Chris Peak)</author>
       <guid>http://www.gorilla-studios.com/2011/12/16/watching-the-storm-roll-through</guid>
-      <description>&lt;a href='/images/CRW_1453.jpg' rel='lightbox[unique]'&gt;&lt;img src='/images/CRW_1453s.jpg' /&gt;&lt;/a&gt;</description>
+      <description>&lt;a rel='lightbox[unique]' href='/images/CRW_1453.jpg'&gt;&lt;img src='/images/CRW_1453s.jpg' /&gt;&lt;/a&gt;</description>
     </item>
     
     <item>
