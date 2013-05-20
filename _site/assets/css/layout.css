@@ -1,11 +1,11 @@
-body {
+body,
+html {
   background: #f4f4f4;
   font-family: "franklin-gothic-urw", "Avenir", serif;
   font-style: normal;
   font-weight: 300;
-  
-  /* font-family: "proxima_novalight", serif; */
   font-size: 18px;
+  height: 100%;
   padding: 0;
   margin: 0; 
 }

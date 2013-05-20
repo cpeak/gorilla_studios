@@ -50,6 +50,11 @@ header .row {
   border-bottom: 2px solid #fff; 
   color: #fff;
 }
+.wrap {
+  overflow: auto;
+  min-height: 100%;
+  padding-bottom: 470px;
+}
 
 /* ############################################## */
 /* ############### SIDEBAR =SB ################## */
@@ -87,8 +92,9 @@ header .row {
 footer { 
   background: #222222;
   border-top: 1px solid #fff;
-  min-height: 300px;
-  margin-top: 2em;
+  height: 450px;
+  margin-top: -450px;
+  overflow: hidden;
   padding-top: 2em;
   width: 100%;
 }
@@ -389,7 +395,6 @@ and (max-device-width : 480px) {
     padding: 5px 8px;
     text-align: center;
   }
-
   .marquee .nav li a { color: #fff; }
   header { margin-bottom: 10px; }
 
