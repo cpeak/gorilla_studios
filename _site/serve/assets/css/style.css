@@ -72,10 +72,12 @@ header .row {
 
 .tweet_list li { 
   background: #fff;
+  display: inline-block;
   font-size: .8em;
   line-height: 1.1em; 
   padding: 5px;
   text-align: left; 
+  width: 100%;
 }
 
 .tweet_list li:nth-child(odd) { background: #f2f7fc; }
