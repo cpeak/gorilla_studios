@@ -15,6 +15,8 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/06/11/hello-san-fran
+http://www.gorilla-studios.com/2013/06/09/photo-of-the-month
 http://www.gorilla-studios.com/2013/05/26/brooklyn-bridge
 http://www.gorilla-studios.com/2013/05/11/tower-bridge
 http://www.gorilla-studios.com/2013/05/10/london
