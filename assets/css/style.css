@@ -188,6 +188,9 @@ code {
 #index_365 img { width: 100%; }
 #index_365 h3 { text-align: right; margin: 5px 0px; }
 
+#broken_twitter {
+  font-size: .8em;
+}
 /* ############################################## */
 /* ########### =P - POSTS ############# */
 .post-wrap {
