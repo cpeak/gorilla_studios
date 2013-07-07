@@ -16,6 +16,7 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/07/07/new-england
 http://www.gorilla-studios.com/2013/06/12/flying-not-all-bad
 http://www.gorilla-studios.com/2013/06/11/hello-san-fran
 http://www.gorilla-studios.com/2013/06/09/photo-of-the-month

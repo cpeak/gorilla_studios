@@ -57,38 +57,6 @@ header .row {
 }
 
 /* ############################################## */
-/* ############### SIDEBAR =SB ################## */
-
-.affiliate_link a {
-  background-image: url('/images/borrow_lenses.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  display: block;
-  height: 437px;
-  margin: 5px auto;
-  width: 130px;
-  max-width: 100%;
-}
-
-.tweet_list li { 
-  background: #fff;
-  display: inline-block;
-  font-size: .8em;
-  line-height: 1.1em; 
-  padding: 5px;
-  text-align: left; 
-  width: 100%;
-}
-
-.tweet_list li:nth-child(odd) { background: #f2f7fc; }
-
-.tweet_avatar {
-  float: left; 
-  display: block;
-  margin: 5px 8px 0px 0px;
-}
-
-/* ############################################## */
 /* ############### FOOTER =F #################### */
 
 footer { 
