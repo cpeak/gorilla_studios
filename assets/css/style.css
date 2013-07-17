@@ -37,7 +37,7 @@ header .row {
 .nav li a:hover { color: #000; }
 
 .marquee {
-  background: url('/images/marquee/fireworks.jpg') no-repeat center center;
+  background: url('/images/marquee/boat.jpg') no-repeat center center;
   border-bottom: 1px solid #000;
   height: 600px;
   -webkit-background-size: cover;
@@ -45,10 +45,10 @@ header .row {
   -o-background-size: cover;
   background-size: cover;
 }
-.marquee .nav li a { color: #bbb; }
+.marquee .nav li a { color: #fff; }
 .marquee .nav li a:hover { 
-  border-bottom: 2px solid #fff; 
-  color: #fff;
+  border-bottom: 2px solid #000; 
+  color: #000;
 }
 .wrap {
   overflow: auto;
