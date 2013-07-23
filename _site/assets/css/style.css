@@ -29,7 +29,6 @@ header .row {
 .nav li a {
   color: #bbb; 
   font-size: .8em;
-  font-weight: 400;
   padding: 5px 20px 20px 20px;
   text-transform: uppercase;
 }
@@ -37,7 +36,7 @@ header .row {
 .nav li a:hover { color: #000; }
 
 .marquee {
-  background: url('/images/marquee/boat.jpg') no-repeat center center;
+  background: url('/images/marquee/bridge.jpg') no-repeat center center;
   border-bottom: 1px solid #000;
   height: 600px;
   -webkit-background-size: cover;
@@ -60,7 +59,7 @@ header .row {
 /* ############### FOOTER =F #################### */
 
 footer { 
-  background: #222222;
+  background: #131313;
   border-top: 1px solid #fff;
   height: 450px;
   margin-top: -450px;
@@ -94,17 +93,6 @@ footer p,
 /* ############################################## */
 /* ################## TYPE =T ################### */
 
-
-@font-face {
-  font-family: 'proxima_novalight';
-  src: url('/type/proximanova-light-webfont.eot');
-  src: url('/type/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/type/proximanova-light-webfont.woff') format('woff'),
-       url('/type/proximanova-light-webfont.ttf') format('truetype'),
-       url('proximanova-light-webfont.svg#proxima_novalight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 @font-face {
   font-family: 'LeagueGothicRegular'; /* Headlines */
   src: url('/type/League_Gothic-webfont.eot');
@@ -115,6 +103,21 @@ footer p,
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'open_sans';
+  src: url('/type/OpenSans-Light-webfont.eot');
+  src: url('/type/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/type/OpenSans-Light-webfont.woff') format('woff'),
+       url('/type/OpenSans-Light-webfont.ttf') format('truetype'),
+       url('/type/OpenSans-Light-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
 
 code { 
   padding: 4px 5px;
@@ -174,9 +177,7 @@ code {
   margin-bottom: 20px;
 }
 .sub_promos h2 {
-  border-bottom: 6px solid #50a045;
   font-size: 1.75em;
-  margin-bottom: 15px;
 }
 
 .read_more { float: right; }
@@ -186,7 +187,7 @@ code {
 }
 .blog_preview p {
   font-size: .85em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   padding-bottom: 5px;
 }
 
