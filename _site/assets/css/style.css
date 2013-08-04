@@ -503,7 +503,11 @@ and (orientation : portrait) {
     border: none !important 
   }
 
-  .marquee { height: 300px; }
+  .marquee { 
+    background-position: 35% 20%;
+    height: 300px; 
+  
+  }
   .headlines { margin: 0; }
   .headlines h1,
   .headlines h2 { display: none; }
