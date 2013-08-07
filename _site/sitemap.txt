@@ -18,6 +18,7 @@ http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/steele.html
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/08/07/parade-of-sails
 http://www.gorilla-studios.com/2013/07/21/london
 http://www.gorilla-studios.com/2013/07/07/new-england
 http://www.gorilla-studios.com/2013/06/12/flying-not-all-bad
