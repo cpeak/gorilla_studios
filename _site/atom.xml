@@ -4,7 +4,7 @@
  <title>Gorilla-Studios</title>
  <link href="http://www.gorilla-studios.com/atom.xml" rel="self"/>
  <link href="http://www.gorilla-studios.com"/>
- <updated>2013-08-08T22:53:31-05:00</updated>
+ <updated>2013-08-11T11:37:37-05:00</updated>
  <id>http://www.gorilla-studios.com</id>
  <author>
    <name></name>
@@ -13,12 +13,23 @@
 
  
  <entry>
+   <title>Schooner Lynx</title>
+   <link href="http://www.gorilla-studios.com/2013/08/11/schooner-lynx"/>
+   <updated>2013-08-11T00:00:00-05:00</updated>
+   <id>http://www.gorilla-studios.com/2013/08/11/schooner-lynx</id>
+   <content type="html">&lt;img src='/images/lynx.jpg' /&gt;
+&lt;p&gt;After posting shots from my visit to the Tall Ships exhibit at Navy Pier last week I was contacted by the Captain of the Privateer Lynx regarding the photo I took of it rounding the Chicago Harbor Light in the rain. She is a schooner from New Hampshire that was constructed by Rockport Marine in Rockport Maine and launched on July 28th, 2001. Here is a another photo of this beautiful ship out on Lake Michigan. For more information please visit the ship's website at &lt;a href=&quot;http://www.privateerlynx.com/&quot;&gt;www.privateerlynx.com&lt;/a&gt;.&lt;/p&gt; 
+</content>
+ </entry>
+ 
+ <entry>
    <title>Parade Of Sails</title>
    <link href="http://www.gorilla-studios.com/2013/08/07/parade-of-sails"/>
    <updated>2013-08-07T00:00:00-05:00</updated>
    <id>http://www.gorilla-studios.com/2013/08/07/parade-of-sails</id>
    <content type="html">&lt;img src='/images/rainy-sails.jpg' /&gt;
 &lt;p&gt;A sudden downpour came in during the parade of sails in Chicago, but that didn't ruin our day. More photos to come.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I was contacted by the Captain of this beautiful ship and learned this is the Privateer Lynx from New Hampshire.&lt;/p&gt;
 </content>
  </entry>
  
