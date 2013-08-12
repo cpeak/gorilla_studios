@@ -36,7 +36,7 @@ header .row {
 .nav li a:hover { color: #000; }
 
 .marquee {
-  background: url('/images/marquee/bridge.jpg') no-repeat center center;
+  background: url('/images/marquee/sails.jpg') no-repeat center center;
   border-bottom: 1px solid #000;
   height: 600px;
   -webkit-background-size: cover;
