@@ -36,7 +36,7 @@ header .row {
 .nav li a:hover { color: #000; }
 
 .marquee {
-  background: url('/images/marquee/sails.jpg') no-repeat center center;
+  background: url('/images/marquee/inky-lake.jpg') no-repeat center center;
   border-bottom: 1px solid #000;
   height: 600px;
   -webkit-background-size: cover;
@@ -289,16 +289,15 @@ code {
   padding: 5px 0 ;
   overflow:hidden;
 }
-.tag_box li { line-height:28px; }
 .tag_box.inline li { float:left; }
 
 .tag_box a {
   background: #8aa677;
   border-radius: 3px;
   color:#fff;
-  line-height: 2em; 
-  margin: 2px;
-  padding: 10px 8px 6px 8px;
+  display: block;
+  margin: 0 4px 4px 0;
+  padding: 8px;
   text-decoration:none;
 }
 .tag_box a span{
