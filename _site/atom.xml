@@ -4,7 +4,7 @@
  <title>Gorilla-Studios</title>
  <link href="http://www.gorilla-studios.com/atom.xml" rel="self"/>
  <link href="http://www.gorilla-studios.com"/>
- <updated>2013-08-22T06:49:15-05:00</updated>
+ <updated>2013-08-22T16:56:42-05:00</updated>
  <id>http://www.gorilla-studios.com</id>
  <author>
    <name></name>
@@ -30,6 +30,16 @@
    <content type="html">&lt;img src='/images/rainy-sails.jpg' /&gt;
 &lt;p&gt;A sudden downpour came in during the parade of sails in Chicago, but that didn't ruin our day. More photos to come.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I was contacted by the Captain of this beautiful ship and learned she is the Privateer Lynx from New Hampshire. Upon further investigation the ship on her port side is the Madeline, and the ship dissapearing behind the lighthouse is the Friends Good Will.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Photo Of The Month</title>
+   <link href="http://www.gorilla-studios.com/2013/08/01/photo-of-the-month"/>
+   <updated>2013-08-01T00:00:00-05:00</updated>
+   <id>http://www.gorilla-studios.com/2013/08/01/photo-of-the-month</id>
+   <content type="html">&lt;img src=&quot;/images/pod/200_full.jpg&quot; alt=&quot;No straight lines, building in Chicago&quot;/&gt;
+&lt;p&gt;My favorite shot this month was certainly a departure from what I normally like. This was taken on a lunch break while walking around soaking up some sun. I snapped this photo of an apartment building on Adams St. and instantly noticed that from that particular angle no lines were straight up and down. The brick columns were askew, the street lights att odd angles, all creating a strange scene guiding your attention all over the place. I normally like all my photos at perfect 90 degree angles and try my best to correct for the Keystone Effect when shooting skyscrapers (very common living in Chicago) so to say this was outside of my comfort zone is a bit of an understatement.&lt;/p&gt;
 </content>
  </entry>
  
@@ -70,6 +80,16 @@
    <id>http://www.gorilla-studios.com/2013/07/07/new-england</id>
    <content type="html">&lt;img src='/images/new-england/newport-sundown.jpg' /&gt;
 &lt;p&gt;Here is a &lt;a href=&quot;/new-england.html&quot;&gt;collection of photographs from New England&lt;/a&gt; taken in and around Mystic, CT and Newport, RI. I absolutely love New England, and try to visit every year. Enjoy some of my personal shots from my last few trips.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Photo Of The Month</title>
+   <link href="http://www.gorilla-studios.com/2013/07/01/photo-of-the-month"/>
+   <updated>2013-07-01T00:00:00-05:00</updated>
+   <id>http://www.gorilla-studios.com/2013/07/01/photo-of-the-month</id>
+   <content type="html">&lt;img src=&quot;/images/pod/161_full.jpg&quot; alt=&quot;Line cook shucking oysters, Anchor and Hope, San Francisco&quot;/&gt;
+&lt;p&gt;My personal favorite from June was taken while I was out in California for a few days on a business trip. We had stopped into Anchor &amp;amp; Hope in downtown San Francisco, an amazing seafood restaurant. While waiting for lunch to be served a line cook was shucking oysters behind the main counter. The sun shone in through the skylights and lit him like a spotlight. I wish I had more time to capture the shot, or maybe a wider lens, but I still enjoyed how it came out. I love the decor - with the fun painted fish on the walls and the interesting lamps jutting out, the counter littered with dishes, everything combined to create a visually interesting scene.&lt;/p&gt;
 </content>
  </entry>
  
