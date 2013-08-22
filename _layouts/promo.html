@@ -17,10 +17,7 @@
       
       function carousel() {
           var randomImg = getRandomImage(marquee_array);
-          $('#marquee').fadeOut(function () {
-            $('#marquee').css({'background-image': "url(" + randomImg + ")" });
-            $('#marquee').fadeIn();
-          });
+          $('#marquee').css({'background-image': "url(" + randomImg + ")" });
         }
 
         setInterval( carousel, 10000);
@@ -39,6 +36,15 @@
       </section>
     </div>
   </header>
+  <div class='ugly-fix'>
+    <img src="images/marquee/fireworks.jpg">
+    <img src="images/marquee/rainy-sail.jpg">
+    <img src="images/marquee/london-eye.jpg">
+    <img src="images/marquee/bass.jpg">
+    <img src="images/marquee/hancock.jpg">
+    <img src="images/marquee/bridge.jpg">
+    <img src="images/marquee/lighthouse-sails.jpg">
+  </div>
 
   <div class='wrap'>
     {{ content }}

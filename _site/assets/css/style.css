@@ -43,12 +43,19 @@ header .row {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -o-transition: all 1s ease-in; 
+  -moz-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
 }
 .marquee .nav li a { color: #fff; }
 .marquee .nav li a:hover { 
-  border-bottom: 2px solid #000; 
-  color: #000;
+  border-bottom: 2px solid #ccc; 
+  color: #ccc;
 }
+
+.ugly-fix { display: none; }
+
 .wrap {
   overflow: auto;
   min-height: 100%;
