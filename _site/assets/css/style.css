@@ -192,6 +192,9 @@ code {
 .blog_preview h3 {
   margin: 0;
 }
+.blog_preview figcaption {
+  display: none;
+}
 .blog_preview p {
   font-size: .85em;
   line-height: 1.5em;
@@ -263,6 +266,24 @@ code {
 .post p {
   max-width: 700px;
   margin: 0 auto;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  display: block;
+  color: #777;
+  font-size: .7em;
+  margin-top: -20px !important;
+  margin-bottom: 1.5em !important;
+}
+.vertical { 
+  margin: 0 auto;
+  max-width: 680px;
+}
+.alt {
+  color: #51a247;
+  float: right;
 }
 
 .quote {
@@ -526,6 +547,7 @@ and (orientation : portrait) {
     width: 318px !important; 
   }
   .blog_preview p { font-size: 13px; }
+
   .tweet_list { 
     font-size: 18px;
   }
