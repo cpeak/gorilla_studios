@@ -204,9 +204,6 @@ code {
 #index_365 img { width: 100%; }
 #index_365 h3 { text-align: right; margin: 5px 0px; }
 
-#broken_twitter {
-  font-size: .8em;
-}
 /* ############################################## */
 /* ########### =P - POSTS ############# */
 
@@ -277,13 +274,15 @@ figcaption {
   margin-top: -20px !important;
   margin-bottom: 1.5em !important;
 }
-.vertical { 
-  margin: 0 auto;
-  max-width: 680px;
-}
-.alt {
+
+figcaption span {
   color: #51a247;
   float: right;
+}
+
+.vertical { 
+  margin: 0 auto;
+  max-width: 640px;
 }
 
 .quote {
