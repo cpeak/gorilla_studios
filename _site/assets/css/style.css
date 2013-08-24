@@ -68,8 +68,8 @@ header .row {
 footer { 
   background: #131313;
   border-top: 1px solid #fff;
-  height: 450px;
-  margin-top: -450px;
+  height: 470px;
+  margin-top: -470px;
   overflow: hidden;
   padding-top: 2em;
   width: 100%;
@@ -122,15 +122,12 @@ footer p,
   font-style: normal;
 }
 
-
-
-
-
 code { 
   padding: 4px 5px;
   color: #3366cc;
   font-size: .75em; 
 }
+
 @font-face {
   font-family: 'gostu';
   src:url('/type/gostu.eot');
@@ -397,13 +394,6 @@ input[type="text"], textarea {
 }
 
 /* ############################################## */
-/* ############ PORTFOLIO PAGE ################## */
-
-.sub-galleries .columns {
-}
-
-
-/* ############################################## */
 /* ############ PHOTO GALLERIES ################# */
 
 .gallery_list ul {
@@ -422,28 +412,24 @@ input[type="text"], textarea {
 /* ############################################## */
 /* ############ =MQ Media Queries ############### */
 
-/* iPhone landscape */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) { 
+and (max-width : 980px) { 
   body {
     float: none;
     margin: 0 auto;
-    overflow: hidden;
     padding: 0;
-    width: 480px;
   }
   #branding {
     float: left;
     margin: 0;
-    width: 120px;
+    width: 30%;
   }
 
   #navigation {
     float: left;
     margin: 0 !important;
     padding: 0;
-    width: 350px;
+    width: 65%;
   }
   .nav { 
     margin: 15px 0px 0px 0px; 
@@ -459,64 +445,44 @@ and (max-device-width : 480px) {
     text-align: center;
   }
   .marquee .nav li a { color: #fff; }
+
   header { margin-bottom: 10px; }
 
-  .marquee { height: 300px; }
-  .headlines { margin: 0; }
-
-  p { font-size: 10px; }
-
-  footer { font-size: 10px !important; }
-
-  .row {
-    font-size: 13px;
-    max-width: 470px !important;
-    min-width: 460px !important;
-  }
-
+  .marquee { height: 300px !important; }
   footer section {
     margin: 1em 0;
     width: 100% !important;
   }
-
-  /* INDEX */
   
-  /* ABOUT */
-  .offset-by-one {
-    margin: 0 !important;
-    width: 470px !important;
-  }
-
   /* BLOG/POSTS */
   /* Blog Post Headlines remove  margin */
   .post_date {
     margin: 0;
   }
+  .sub-galleries section {
+    float: none !important;
+    margin: 0;
+    text-align: center;
+    width: 100% !important;
+  }
+  footer {
+    padding: 1em;
+  }
 }
 
-/* iPhone portrait */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) 
-and (orientation : portrait) { 
-  body {
-    width: 320px;
-  }
-  p { font-size: 15px; }
-  .row { 
-    max-width: 320px !important;
-    min-width: 318px !important;
-  } 
+and (max-width : 650px) {
+
+  body { font-size: .9em; }
 
   #branding {
     margin-top: 40px;
-    width: 160px;
+    width: 50%;
   }
 
   #navigation { 
     float: right;
-    font-size: 16px;
-    width: 140px !important; }
+    width: 50%; }
 
   .nav { 
     padding: 0; 
@@ -532,45 +498,39 @@ and (orientation : portrait) {
     padding: 0;
     width: 100%;
   }
-  .nav li:last-child a {
-    border: none !important 
-  }
+
+  .nav li:last-child a { border: none !important }
 
   .marquee { 
     background-position: 35% 20%;
     height: 300px; 
-  
   }
-  .headlines { margin: 0; }
-  .headlines h1,
-  .headlines h2 { display: none; }
 
   /* Home Page */
   .sub_promos section {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px;
+    float: none;
+    text-align: center;
     padding-bottom: 10px;
-    width: 318px !important; 
+    width: 100% !important; 
   }
-  .blog_preview p { font-size: 13px; }
 
-  .tweet_list { 
-    font-size: 18px;
+  #index_365 img {
+    max-width: 300px;
   }
+
+  .footer-nav { display: none; }
 
   /* Blog */
   span.date {
     display: block;
     font-size: 1.5em;
-    margin: -15px 0 5px 33px;
+    margin: -10px 0 5px 33px;
   }
 
-  /* About */
-  .offset-by-one {
-    margin: 0 !important;
-    width: 318px !important;
+  .alt {
+    width: 100%;
   }
-  
+
   /* Galleries */
   #Gallery li,
   #challenge_gallery li {
@@ -578,14 +538,16 @@ and (orientation : portrait) {
     width: 48%;
   }
   
-  .sub-galleries section {
-    margin: 0px 0px 10px 0px;
-    width: 99% !important;
-  }
   /* Contact Form */
   #contact-form,
   #alternate-contacts {
-    margin: 20px 10px;
-    width: 300px !important;
+    float: none;
+    margin: 20px auto;
+    width: 80%;
   }
+}
+
+.copyright {
+  margin: 0;
+  height: 20px;
 }
