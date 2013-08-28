@@ -1,10 +1,21 @@
-/* Gorilla Studios - Chris Peak ©2003-2012 */
+/* Gorilla Studios - Chris Peak ©2003-2013 */
+/* 
+    =N Header and Naviation
+    =F Footer
+    =T Typogoraphy & Webfonts
+    =IP Index Page
+    =P Blog Posts
+    =AT Archive Tags
+    =CP Contact Page
+    =PG Photo Gallery
+    =MQ Media Queries
+      =MQ1 Medium breakpoint (Tablets & super big phones)
+      =MQ2 Small breakpoint (phones)
 
-
+*/
 .centered { text-align: center; }
 .left { float: left; }
 .right { float: right; }
-
 
 
 
@@ -24,7 +35,8 @@ header .row {
   margin-bottom: 2em;
 }
 .nav li {
-  display: inline; }
+  display: inline; 
+}
 
 .nav li a {
   color: #bbb; 
@@ -48,6 +60,7 @@ header .row {
   -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
+
 .marquee .nav li a { color: #fff; }
 .marquee .nav li a:hover { 
   border-bottom: 2px solid #ccc; 
@@ -169,30 +182,19 @@ code {
 .icon-astrophotography:before { content: "\e007"; }
 .icon-camera:before { content: "\e008"; }
 
-
-
-
-
-
-
 /* ############################################## */
-/* ########### INDEX PAGE ################### */
+/* ########### =IP INDEX PAGE ################### */
 
-.sub_promos {
-  margin-bottom: 20px;
-}
-.sub_promos h2 {
-  font-size: 1.75em;
-}
+.sub_promos { margin-bottom: 20px; }
+
+.sub_promos h2 { font-size: 1.75em; }
 
 .read_more { float: right; }
 
-.blog_preview h3 {
-  margin: 0;
-}
-.blog_preview figcaption {
-  display: none;
-}
+.blog_preview h3 { margin: 0; }
+
+.blog_preview figcaption { display: none; }
+
 .blog_preview p {
   font-size: .85em;
   line-height: 1.5em;
@@ -200,6 +202,7 @@ code {
 }
 
 #index_365 img { width: 100%; }
+
 #index_365 h3 { text-align: right; margin: 5px 0px; }
 
 /* ############################################## */
@@ -212,18 +215,21 @@ code {
   margin-right: 5px;
   display: inline-block;
 }
+
 .Photo:before { content: "\e000"; }
+
 .Blog:before { content: "\e001"; }
+
 .Link:before { content: "\e004"; }
+
 .Quick-Tip:before { content: "\e005"; }
 
 .post-wrap {
   border-top: 1px solid #ccc;
   padding-top: 2em;
 }
-.post_date {
-  margin: 0px 0px 1em 150px;
-}
+.post_date { margin: 0px 0px 1em 150px; }
+
 .post_date a { /* ### Blog Post Title ### */
   color: #333;
   font-family: "LeagueGothicRegular";
@@ -231,6 +237,7 @@ code {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .date {
   color: #555;
   font-family: "LeagueGothicRegular";
@@ -249,22 +256,22 @@ code {
   margin: 0 auto 1.5em auto;
   max-width: 100%; 
 }
-.post {
-  padding-bottom: 1em;
-}
+
+.post { padding-bottom: 1em; }
 
 .post h3,
 .post h4{
   max-width: 720px;
   margin: 0px auto 10px auto;
 }
+
 .post p {
   max-width: 700px;
   margin: 0 auto;
 }
-figure {
-  margin: 0;
-}
+
+figure { margin: 0; }
+
 figcaption {
   display: block;
   color: #777;
@@ -277,6 +284,7 @@ figcaption span {
   color: #51a247;
   float: right;
 }
+
 figcaption span:before {
   color: #9eb99b;
   content: "\e008";
@@ -302,6 +310,7 @@ figcaption span:before {
   margin-top: 1em; 
   text-align: center; 
 }
+
 .pagination ul li { display: inline; }
 .pagination a {
   margin: 0 5px;
@@ -309,8 +318,8 @@ figcaption span:before {
 }
 
 
-/* ############################################## */
-/* ############## ARCHIVE TAGS ################## */
+/* ############################################### */
+/* ########### =AT ARCHIVE TAGS ################## */
 
 .m_tools_list h4 { margin-top: 20px; }
 
@@ -320,6 +329,7 @@ figcaption span:before {
   padding: 5px 0 ;
   overflow:hidden;
 }
+
 .tag_box.inline li { float:left; }
 
 .tag_box a {
@@ -331,10 +341,12 @@ figcaption span:before {
   padding: 8px;
   text-decoration:none;
 }
+
 .tag_box a span{
   vertical-align:super;
   font-size:0.8em;
 }
+
 .tag_box a.active {
   background:#57A957;
   border:1px solid #4C964D;
@@ -351,16 +363,16 @@ figcaption span:before {
   margin: 1%;
   width: 30%;
 }
-.m_tag_list_block {
-  padding: 3%;
-}
+
+.m_tag_list_block { padding: 3%; }
+
 .m_tag_list_block h2 {
   text-align: center;
   padding: 0;
 }
 
-/* ############################################## */
-/* ############## CONTACT PAGE ################## */
+/* ################################################## */
+/* ############## =CP CONTACT PAGE ################## */
 
 .contact_form p { 
   font-size: 1.1em; 
@@ -373,9 +385,8 @@ input[type="text"], textarea {
   width: 90%; 
 }
 
-.social-link {
-   border-spacing: 10px;
-}
+.social-link { border-spacing: 10px; }
+
 .social-link td {
   border-right: 1px solid #eee;
   border-bottom: 1px solid #ddd;
@@ -384,17 +395,17 @@ input[type="text"], textarea {
   text-align: center;
   width: 100px;
 }
+
 .social-link a {
   display: block;
   padding-top: 23px;
   height: 100px;
 }
-.social-link img {
-  width: 50px;
-}
 
-/* ############################################## */
-/* ############ PHOTO GALLERIES ################# */
+.social-link img { width: 50px; }
+
+/* ################################################# */
+/* ########## =PG  PHOTO GALLERIES ################# */
 
 .gallery_list ul {
   overflow: hidden; 
@@ -405,20 +416,20 @@ input[type="text"], textarea {
   margin: 0px 1% 0.5% 0px;
   width: 24%;
 }
-.gallery_list li img {
-  max-width: 100%;
-}
+.gallery_list li img { max-width: 100%; }
 
 /* ############################################## */
 /* ############ =MQ Media Queries ############### */
 
-@media only screen 
-and (max-width : 980px) { 
+/* =MQ1 */
+/* Medium Breakpoint */
+@media only screen and (max-width : 980px) { 
   body {
     float: none;
     margin: 0 auto;
     padding: 0;
   }
+
   #branding {
     float: left;
     margin: 0;
@@ -431,10 +442,12 @@ and (max-width : 980px) {
     padding: 0;
     width: 65%;
   }
+
   .nav { 
     margin: 15px 0px 0px 0px; 
     padding: 0; 
   }
+
   .nav li a {
     color: #222;
     display: inline-block;
@@ -444,6 +457,7 @@ and (max-width : 980px) {
     padding: 5px 8px;
     text-align: center;
   }
+
   .marquee .nav li a { color: #fff; }
 
   header { margin-bottom: 10px; }
@@ -470,9 +484,9 @@ and (max-width : 980px) {
   }
 }
 
-@media only screen 
-and (max-width : 650px) {
-
+/* MQ2 */
+/* Small Breakpoint */
+@media only screen and (max-width : 650px) {
   body { font-size: .9em; }
 
   #branding {
@@ -482,7 +496,8 @@ and (max-width : 650px) {
 
   #navigation { 
     float: right;
-    width: 50%; }
+    width: 50%; 
+  }
 
   .nav { 
     padding: 0; 
@@ -514,9 +529,7 @@ and (max-width : 650px) {
     width: 100% !important; 
   }
 
-  #index_365 img {
-    max-width: 300px;
-  }
+  #index_365 img { max-width: 300px; }
 
   .footer-nav { display: none; }
 
@@ -527,9 +540,7 @@ and (max-width : 650px) {
     margin: -10px 0 5px 33px;
   }
 
-  .alt {
-    width: 100%;
-  }
+  .alt { width: 100%; }
 
   /* Galleries */
   #Gallery li,

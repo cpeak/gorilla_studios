@@ -1,3 +1,8 @@
+/* 
+  =L Layout (Row/Colum System)
+
+*/
+
 body,
 html {
   background: #fff;
@@ -23,9 +28,8 @@ a, a:visited {
   -o-transition:color 0.15s ease-in;  
   transition: all 0.15s ease-in; 
 }
-a:hover { 
-  color: #000; 
-}
+
+a:hover { color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #444;
@@ -56,9 +60,8 @@ p {
   margin: 0; 
   padding-bottom: 1.7em; 
 }
-strong {
-  letter-spacing: -1px;
-}
+
+strong { letter-spacing: -1px; }
 
 hr {
   max-width: 800px;
@@ -77,9 +80,8 @@ ul {
   padding: 0; 
 }
 
-.disabled a {
-  color: #ccc;
-}
+.disabled a { color: #ccc; }
+
 .pagination ul { display: block; list-style: none; }
 
 /* Clearfix */
@@ -87,17 +89,16 @@ ul {
 .cf:after { clear: both; }
 .cf { zoom: 1; }
 
+/* ################################### */
+/* ########## =L LAYOUT ############## */
 
-/* LAYOUT */
 .row {
   max-width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.row .row {
-  margin: 0 -10px;
-}
+.row .row { margin: 0 -10px; }
 
 .row.collapse .column,
 .row.collapse .columns { padding: 0; }
