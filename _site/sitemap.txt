@@ -19,6 +19,7 @@ http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/steele.html
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/09/03/photo-of-the-month
 http://www.gorilla-studios.com/2013/08/28/nik-software
 http://www.gorilla-studios.com/2013/08/11/schooner-lynx
 http://www.gorilla-studios.com/2013/08/07/parade-of-sails

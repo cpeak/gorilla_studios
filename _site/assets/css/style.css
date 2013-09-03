@@ -415,6 +415,10 @@ input[type="text"], textarea {
 }
 .gallery_list li img { max-width: 100%; }
 
+.sub-galleries {
+  margin-bottom: 10px;
+}
+
 /* ############################################## */
 /* ############ =MQ Media Queries ############### */
 
