@@ -322,26 +322,27 @@ figcaption span:before {
 
 .tag_box {
   list-style:none;
-  margin:0;
+  margin: 0;
   padding: 5px 0 ;
   overflow:hidden;
 }
 
-.tag_box.inline li { float:left; }
+.tag_box.inline li { float: left; }
 
 .tag_box a {
   background: #8aa677;
   border-radius: 3px;
   color:#fff;
   display: block;
-  margin: 0 4px 4px 0;
-  padding: 8px;
-  text-decoration:none;
+  font-size: .9em;
+  margin: 0 6px 6px 0;
+  padding: 4px 8px;
+  text-decoration: none;
 }
 
-.tag_box a span{
-  vertical-align:super;
-  font-size:0.8em;
+.tag_box a span { /* Count Number */
+  vertical-align: super;
+  font-size: 0.6em;
 }
 
 .tag_box a.active {
@@ -352,22 +353,13 @@ figcaption span:before {
 
 .tag_box a:hover { color: #000; }
 
-.list_block {
-  border-top: 1px solid #ccc;
-  display: inline-block;
-  float: left;
-  font-size: .9em;
-  margin: 1%;
-  width: 30%;
+.archive-list li {
+  font-size: .8em;
+  margin-left: .5em;
 }
-
-.m_tag_list_block { padding: 3%; }
-
-.m_tag_list_block h2 {
-  text-align: center;
-  padding: 0;
+.archive-list ul span {
+  color: #888;
 }
-
 /* ################################################## */
 /* ############## =CP CONTACT PAGE ################## */
 
