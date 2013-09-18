@@ -189,6 +189,8 @@ code {
 
 .sub_promos h2 { font-size: 1.75em; }
 
+.sub_promos img { width: 100%; }
+
 .read_more { float: right; }
 
 .blog_preview h3 { margin: 0; }
@@ -426,7 +428,7 @@ input[type="text"], textarea {
   #branding {
     float: left;
     margin: 0;
-    width: 30%;
+    width: 20%;
   }
 
   #navigation {
@@ -516,9 +518,11 @@ input[type="text"], textarea {
 
   /* Home Page */
   .sub_promos section {
+    border-top: 1px solid #ccc;
     float: none;
     text-align: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
     width: 100% !important; 
   }
 
