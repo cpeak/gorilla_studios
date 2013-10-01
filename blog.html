@@ -1,0 +1,22 @@
+---
+layout: page
+title: Blog 
+tagline: Blog 
+---
+<div class="row">
+  <div class="twelve columns">
+    {% for post in site.posts limit:10 %}
+    <div class='post-wrap'>
+      <div class="post_date"><span class="icon {{ post.tags }}"></span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <span class="date">&raquo; {{ post.date | date_to_string }}</span></div>
+      <div class="post">
+        {% include JB/post_content %}
+      </div>
+    </div>
+    {% endfor %}
+    <div class="post">
+      <p><a href="/archive.html">Older Posts &raquo;</a></p>
+    </div>
+  </div>
+
+</div>
+
