@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include common-header.html %} 
+  </head>
+
+  <body>
+    <header class='normal'>
+    <div class="row header_content animated fadeIn">
+      <section id='branding' class="two columns">
+        <a href="/"><img src="/images/gostu.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
+      </section>
+      <section id='navigation' class="ten columns">
+        {% include navigation.html %}
+      </section>
+    </div>
+  </header>
+
+  <div class='wrap'>
+    {{ content }}
+  </div>
+
+  <footer>
+    {% include footer.html %}
+  </footer>
+</body>
+</html>
