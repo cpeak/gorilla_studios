@@ -7,11 +7,11 @@
   <body>
     <header class='normal'>
     <div class="row header_content animated fadeIn">
-      <section id='branding' class="two columns">
-        <a href="/"><img src="/images/gostu.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
-      </section>
-      <section id='navigation' class="ten columns">
+      <section id='navigation'>
         {% include navigation.html %}
+      </section>
+      <section id='branding'>
+        <a href="/"><img src="/images/gostu.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
       </section>
     </div>
   </header>
@@ -23,5 +23,8 @@
   <footer>
     {% include footer.html %}
   </footer>
+  <script>
+    var nav = responsiveNav(".nav-collapse");
+  </script>
 </body>
 </html>

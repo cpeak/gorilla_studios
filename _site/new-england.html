@@ -15,7 +15,9 @@
     <![endif]-->
 
     <script src="/assets/js/modernizr-1.5.min.js"></script>
+    <script src="/assets/js/responsive-nav.js"></script>
     <link href="/assets/css/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/responsive-nav.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/photoswipe.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="/assets/css/animation.css" rel="stylesheet" type="text/css">
@@ -38,12 +40,9 @@
   <body>
     <header class='normal'>
     <div class="row header_content animated fadeIn">
-      <section id='branding' class="two columns">
-        <a href="/"><img src="/images/gostu.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
-      </section>
-      <section id='navigation' class="ten columns">
-        <div class="navbar cf">
-  <ul class="nav">
+      <section id='navigation'>
+        <div class="nav-collapse">
+  <ul>
     <li><a href="/blog.html">Blog</a></li>
     <li><a href="/portfolio.html">Portfolio</a></li>
     <li><a href="/photo365.html">Photo 365</a></li>
@@ -51,6 +50,9 @@
   </ul>
 </div>
 
+      </section>
+      <section id='branding'>
+        <a href="/"><img src="/images/gostu.png" alt="Gorilla-Studios Photography &amp; Design" /></a>
       </section>
     </div>
   </header>
@@ -117,5 +119,8 @@
 </div>
 
   </footer>
+  <script>
+    var nav = responsiveNav(".nav-collapse");
+  </script>
 </body>
 </html>
