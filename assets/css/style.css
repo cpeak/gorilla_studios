@@ -365,6 +365,9 @@ figcaption span:before {
 /* ################################################## */
 /* ############## =CP CONTACT PAGE ################## */
 
+.contact_form {
+  margin-bottom: 40px;
+}
 .contact_form p { 
   font-size: 1.1em; 
   padding-top: 7px; 
