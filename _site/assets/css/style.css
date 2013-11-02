@@ -1,5 +1,5 @@
 /* Gorilla Studios - Chris Peak ©2003-2013 */
-/* 
+/*
     =N Header and Naviation
     =F Footer
     =T Typogoraphy & Webfonts
@@ -37,7 +37,7 @@ header .row {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -o-transition: all 1s ease-in; 
+  -o-transition: all 1s ease-in;
   -moz-transition: all 1s ease-in;
   -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
@@ -54,7 +54,7 @@ header .row {
 /* ############################################## */
 /* ############### FOOTER =F #################### */
 
-footer { 
+footer {
   background: #131313;
   border-top: 1px solid #fff;
   height: 470px;
@@ -67,7 +67,7 @@ footer {
 footer p,
 .footer-nav {
   color: #888;
-  font-size: .8em; 
+  font-size: .8em;
 }
 
 .headshot {
@@ -111,10 +111,10 @@ footer p,
   font-style: normal;
 }
 
-code { 
+code {
   padding: 4px 5px;
   color: #3366cc;
-  font-size: .75em; 
+  font-size: .75em;
 }
 
 @font-face {
@@ -186,7 +186,8 @@ code {
 
 .blog_preview h3 { margin: 0; }
 
-.blog_preview figcaption { display: none; }
+.blog_preview figcaption,
+.blog_preview img { display: none; }
 
 .blog_preview p {
   font-size: .85em;
@@ -244,7 +245,7 @@ code {
   border-left: 1px solid #ddd;
   display: block;
   margin: 0 auto 1.5em auto;
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 .post { padding-bottom: 1em; }
@@ -282,7 +283,7 @@ figcaption span:before {
   margin-right: 5px;
 }
 
-.vertical { 
+.vertical {
   margin: 0 auto;
   max-width: 640px;
 }
@@ -290,15 +291,15 @@ figcaption span:before {
 .quote {
   background: #f2f2f2;
   border: 1px solid #ccc;
-  font-style: italic;  
-  margin: 0 auto; 
-  padding: 20px; 
+  font-style: italic;
+  margin: 0 auto;
+  padding: 20px;
   width: 70%;
 }
 
-.pagination { 
-  margin-top: 1em; 
-  text-align: center; 
+.pagination {
+  margin-top: 1em;
+  text-align: center;
 }
 
 .pagination ul li { display: inline; }
@@ -359,15 +360,15 @@ figcaption span:before {
 .contact_form {
   margin-bottom: 40px;
 }
-.contact_form p { 
-  font-size: 1.1em; 
-  padding-top: 7px; 
-  height: .4em; 
+.contact_form p {
+  font-size: 1.1em;
+  padding-top: 7px;
+  height: .4em;
 }
 
-input[type="text"], textarea { 
+input[type="text"], textarea {
   padding: 4px;
-  width: 90%; 
+  width: 90%;
 }
 
 .social-link { border-spacing: 10px; }
@@ -393,7 +394,7 @@ input[type="text"], textarea {
 /* ########## =PG  PHOTO GALLERIES ################# */
 
 .gallery_list ul {
-  overflow: hidden; 
+  overflow: hidden;
   padding: 1% 0 0 1%;
 }
 .gallery_list li {
@@ -412,7 +413,7 @@ input[type="text"], textarea {
 
 /* =MQ1 */
 /* Medium Breakpoint */
-@media only screen and (max-width : 980px) { 
+@media only screen and (max-width : 980px) {
   body {
     float: none;
     margin: 0 auto;
@@ -426,7 +427,7 @@ input[type="text"], textarea {
     margin: 1em 0;
     width: 100% !important;
   }
-  
+
   /* BLOG/POSTS */
   /* Blog Post Headlines remove  margin */
   .post_date {
@@ -448,7 +449,7 @@ input[type="text"], textarea {
 @media only screen and (max-width : 650px) {
   body { font-size: .9em; }
 
-  .marquee { 
+  .marquee {
     background-position: 35% 20%;
     height: 300px !important;
   }
@@ -460,7 +461,7 @@ input[type="text"], textarea {
     text-align: center;
     margin-bottom: 10px;
     padding: 10px;
-    width: 100% !important; 
+    width: 100% !important;
   }
 
   #index_365 img { max-width: 100%; }
@@ -482,7 +483,7 @@ input[type="text"], textarea {
     margin: 2px 3px;
     width: 48%;
   }
-  
+
   /* Contact Form */
   #contact-form,
   #alternate-contacts {
