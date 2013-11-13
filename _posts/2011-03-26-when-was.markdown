@@ -1,9 +1,0 @@
----
-layout: post
-title: When was...
-tags: Opinion Inspiration
-date: 2011-03-26 14:37:29.000000000 -05:00
----
-<img src="/images/change.jpg" alt="When was the last time conventional wisdom changed the world" />
-
-<p>I woke up with that in my head a few months ago and finally decided to put it to use.</p>

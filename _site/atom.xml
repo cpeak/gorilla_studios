@@ -4,7 +4,7 @@
  <title>Gorilla-Studios</title>
  <link href="http://www.gorilla-studios.com/atom.xml" rel="self"/>
  <link href="http://www.gorilla-studios.com"/>
- <updated>2013-11-07T17:24:18-06:00</updated>
+ <updated>2013-11-13T12:07:05-06:00</updated>
  <id>http://www.gorilla-studios.com</id>
  <author>
    <name></name>
@@ -407,16 +407,6 @@
    <id>http://www.gorilla-studios.com/2013/04/01/photo-of-the-month</id>
    <content type="html">&lt;p&gt;My favorite photo for March has to be a very quick shot from Union Station in Chicago. I was a little early for my train so I decided to go up to one of the balconies overlooking the main hall. I had intended to slow my shutter down enough to capture some of the motion from everyone hurrying in and out of the hall but I did not have my tripod. Attempts to use the railing while shooting around 1/10th or 1/8th were unsuccessful, but this shot at f/4.5, ISO 100 for 1/20th was sharp and had no camera shake. Overall I love the photo - in particular the one woman in the foreground seems to stand out to me. I was interrupted when a bride and her photographers came up to the balcony for some shots, however I was more than happy to get out of their way.  I will eventually go back with my tripod and get some long exposures but for now I am happy with this one.&lt;/p&gt;  
 &lt;img src=&quot;/images/pod/81_full.jpg&quot; /&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Coming Soon</title>
-   <link href="http://www.gorilla-studios.com/2013/03/11/coming-soon"/>
-   <updated>2013-03-11T00:00:00-05:00</updated>
-   <id>http://www.gorilla-studios.com/2013/03/11/coming-soon</id>
-   <content type="html">&lt;img src=&quot;/images/framed.jpg&quot; /&gt;
-&lt;p&gt;I have been working since the beginning of the year to find the best way to sell my work both locally and online. I have been hesitant up to this point because I have not found any solutions that ensure you get a high quality print, framed or matted, affordably and reliably. I can't wait to start selling my artwork, and am looking forward to making it available. More updates soon!&lt;/p&gt;
 </content>
  </entry>
  
@@ -901,27 +891,11 @@
  </entry>
  
  <entry>
-   <title>Cranes And Herons</title>
-   <link href="http://www.gorilla-studios.com/2011/06/18/cranes"/>
-   <updated>2011-06-18T13:47:15-05:00</updated>
-   <id>http://www.gorilla-studios.com/2011/06/18/cranes</id>
-   <content type="html">&lt;img alt='Great Blue Heron in the reeds' src='/images/CRW_3909.jpg' /&gt;&lt;img alt='Great Egret eating fish' src='/images/CRW_4045.jpg' /&gt;</content>
- </entry>
- 
- <entry>
    <title>Absolutely Breathtaking</title>
    <link href="http://www.gorilla-studios.com/2011/06/15/absolutely-breathtaking"/>
    <updated>2011-06-15T20:22:50-05:00</updated>
    <id>http://www.gorilla-studios.com/2011/06/15/absolutely-breathtaking</id>
    <content type="html">&lt;p&gt;Via Gizmodo - Randy Halverson shot these &lt;a href='http://gizmodo.com/5812198/watch-the-milky-way-wheel-overhead-in-all-its-glory'&gt;absolutely breathtaking time-lapse shots&lt;/a&gt; of the Milky Way passing over the South Dakota landscape.  Simply amazing.&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>This Is How My Childhood Was Made</title>
-   <link href="http://www.gorilla-studios.com/2011/06/15/this-is-how-my-childhood-was-made"/>
-   <updated>2011-06-15T11:42:59-05:00</updated>
-   <id>http://www.gorilla-studios.com/2011/06/15/this-is-how-my-childhood-was-made</id>
-   <content type="html">&lt;p&gt;CNet posted a &lt;a href='http://news.cnet.com/2300-11386_3-10008183.html?tag=mncol'&gt;photo tour&lt;/a&gt; of LEGO's headquarters in Denmark, I can't tell you what I would do for a trip there in person.&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -957,27 +931,11 @@
  </entry>
  
  <entry>
-   <title>When was...</title>
-   <link href="http://www.gorilla-studios.com/2011/03/26/when-was"/>
-   <updated>2011-03-26T14:37:29-05:00</updated>
-   <id>http://www.gorilla-studios.com/2011/03/26/when-was</id>
-   <content type="html">&lt;img alt='When was the last time conventional wisdom changed the world' src='/images/change.jpg' /&gt;&lt;p&gt;I woke up with that in my head a few months ago and finally decided to put it to use.&lt;/p&gt;</content>
- </entry>
- 
- <entry>
    <title>Fly Me To The Moon</title>
    <link href="http://www.gorilla-studios.com/2011/03/18/fly-me-to-the-moon"/>
    <updated>2011-03-18T22:41:27-05:00</updated>
    <id>http://www.gorilla-studios.com/2011/03/18/fly-me-to-the-moon</id>
    <content type="html">&lt;img alt='Super Moon shot' src='/images/fly_me_to_the_moon.jpg' /&gt;</content>
- </entry>
- 
- <entry>
-   <title>Against Chrome - A Manifesto</title>
-   <link href="http://www.gorilla-studios.com/2011/02/07/against-chrome-a-manifesto"/>
-   <updated>2011-02-07T12:02:35-06:00</updated>
-   <id>http://www.gorilla-studios.com/2011/02/07/against-chrome-a-manifesto</id>
-   <content type="html">&lt;p&gt;&lt;a href='http://www.3quarksdaily.com/3quarksdaily/2011/02/against-chrome-a-manifesto.html'&gt;Great blog post by Steven Poole&lt;/a&gt; lashing out against virtual visual clutter in modern UI.&lt;/p&gt;&lt;p&gt;I disagree on his critisim of the iPad's iBooks reader though, while it is always in a perpetual middle of the book state, it fades to the background rather quickly when you get absorbed into the actual book itself.  Additionally, if you find yourself nit-picking the tiniest details of the software your using then the designers got all the huge important stuff right.&lt;/p&gt;&lt;p&gt;A bit extreme, but I enjoyed the post thoroughly.&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -997,28 +955,12 @@
  </entry>
  
  <entry>
-   <title>Mac Portable Teardown</title>
-   <link href="http://www.gorilla-studios.com/2009/09/23/mac-portable-teardown"/>
-   <updated>2009-09-23T17:07:49-05:00</updated>
-   <id>http://www.gorilla-studios.com/2009/09/23/mac-portable-teardown</id>
-   <content type="html">&lt;p&gt;Technologizer has a &lt;a href='http://technologizer.com/2009/09/20/inside-the-macintosh-portable/'&gt;fantastic tear-down of the original Macintosh Portable&lt;/a&gt;.  Its amazing how far we have come in the last 20 years.&lt;/p&gt;</content>
- </entry>
- 
- <entry>
    <title>Designs just dessert</title>
    <link href="http://www.gorilla-studios.com/2009/09/08/designs-just-dessert"/>
    <updated>2009-09-08T15:23:59-05:00</updated>
    <id>http://www.gorilla-studios.com/2009/09/08/designs-just-dessert</id>
    <content type="html">&lt;p&gt;It's safe to say that I am obsessed with design.  I mentally critique just about everything I see on a daily basis on how it's put together, how usable or readable it is.  I'm constantly nitpicking tiny details in web design and technology.  My girlfriend gets annoyed when I complain about my cellphone menu being laid out the way it is, or a web page design choice.&lt;/p&gt;&lt;p&gt;I came across a &lt;a href='http://www.aiga.org/content.cfm/designs-just-dessert'&gt;wonderful article on AIGA by Kenneth FitzGerald&lt;/a&gt;
  comparing a Mac to a box of cake mix and design to dessert.  Its a thought-provoking read, definitely worth looking at.&lt;/p&gt;&lt;div class='quote'&gt;&amp;ldquo;I urge students to aspire to pastry chef status as graphic designers. They should select choice ingredients, carefully consider the utensils they employ and eschew default choices. This isn’t to run down cake mix product, which I often enjoy. It’s a satisfactory and convenient option when you want a treat. With a little embellishment, it can be especially tasty.&amp;rdquo;&lt;/div&gt;&lt;p&gt;Enjoy&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>New Identity - Ms Domestic Darling</title>
-   <link href="http://www.gorilla-studios.com/2009/08/31/ms-domestic-darling-new-identity"/>
-   <updated>2009-08-31T09:57:39-05:00</updated>
-   <id>http://www.gorilla-studios.com/2009/08/31/ms-domestic-darling-new-identity</id>
-   <content type="html">&lt;img alt='' src='/images/domesticdarling.png' /&gt;&lt;p&gt;A close friend of mine recently asked me for some design help with her new blog and after a lot of humming and hawing with a few false starts, we got on the right track and came up with a new identity &amp;amp; logo for Ms. Domestic Darling. The logo was created by scanning a few sketches into the computer and using Adobe Illustrator to create a sharp, colorful, vector-based logo.&lt;/p&gt;&lt;p&gt;Check out her blog at &lt;a href='http://msdomesticdarling.com'&gt;MsDomesticDarling.com&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Enjoy&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -1035,46 +977,6 @@
    <updated>2009-07-05T13:22:34-05:00</updated>
    <id>http://www.gorilla-studios.com/2009/07/05/visual-decision-making</id>
    <content type="html">&lt;a href='http://www.alistapart.com/articles/visual-decision-making/'&gt;A great article from A List Apart about visual aesthetics in web design.&lt;/a&gt;</content>
- </entry>
- 
- <entry>
-   <title>Testing Word Press</title>
-   <link href="http://www.gorilla-studios.com/2009/06/30/testing-word-press"/>
-   <updated>2009-06-30T11:13:03-05:00</updated>
-   <id>http://www.gorilla-studios.com/2009/06/30/testing-word-press</id>
-   <content type="html">&lt;p&gt;For a while now Gorilla-Studios has lead a secret double life - one standard PHP/HTML site along with a WP Powered site hidden behind the scenes.  Over the next few days I will be migrating the site over to a WP powered version.  I've decided to go with WordPress to save me some headaches with tracking posts, RSS Feeds, etc.  There are some downsides though, WP is built for beginners with little web experience, and since I make a living from web-development there are some WP functionalities &amp;amp; practices that drive me up a wall.&lt;/p&gt;&lt;p&gt;However, the site should be gaining more and more functionality in the coming weeks, hope you enjoy.&lt;/p&gt;&lt;p&gt;- Chris&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>My desktop, Friday at 5pm</title>
-   <link href="http://www.gorilla-studios.com/2009/04/24/my-desktop-friday-at-5pm"/>
-   <updated>2009-04-24T13:03:54-05:00</updated>
-   <id>http://www.gorilla-studios.com/2009/04/24/my-desktop-friday-at-5pm</id>
-   <content type="html">&lt;img src='/images/geek_desktop.jpg' title='My Desktop' /&gt;&lt;p&gt;Closing up work for the day, I just had a geek moment I thought I would share. Im starting to make a living doing what I *love*. How great is that? That is a screen FILLED with code.&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>Go Cubs Go</title>
-   <link href="http://www.gorilla-studios.com/2009/04/06/go-cubs-go"/>
-   <updated>2009-04-06T13:25:14-05:00</updated>
-   <id>http://www.gorilla-studios.com/2009/04/06/go-cubs-go</id>
-   <content type="html">&lt;img alt='Wrigley Field' src='/images/wrigley-field.jpg' /&gt;</content>
- </entry>
- 
- <entry>
-   <title>Preaching To The Choir With A Loudspeaker</title>
-   <link href="http://www.gorilla-studios.com/2008/09/08/preaching-to-the-choir-with-a-loudspeaker"/>
-   <updated>2008-09-08T13:29:30-05:00</updated>
-   <id>http://www.gorilla-studios.com/2008/09/08/preaching-to-the-choir-with-a-loudspeaker</id>
-   <content type="html">&lt;img alt='' src='/images/football.jpg' /&gt;&lt;p&gt;There is a fine line between advertisements and bombarding the viewer with annoying junk, and ESPN has gone the distance with the latter. I went to check on some football news on SportsIllustrated.com when I was greeted with a lovely growing astroturf ad for Monday Night Football that covered the WHOLE SCREEN. After grumbling and letting it load all the way so I could close it, I was delighted to see that there were also 3 ads for it again on the main page. Seriously ESPN? I'm pretty sure most football fans that go to SI.com to check football scores may have a vague clue that there are games on Monday night now, just a guess. Excuse me while I go put a pop up ad on the front page here to advertise for my site.&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>No, I will not fix your computer</title>
-   <link href="http://www.gorilla-studios.com/2008/08/28/no-i-will-not-fix-your-computer"/>
-   <updated>2008-08-28T14:29:46-05:00</updated>
-   <id>http://www.gorilla-studios.com/2008/08/28/no-i-will-not-fix-your-computer</id>
-   <content type="html">&lt;img alt='' src='/images/designer.gif' /&gt;</content>
  </entry>
  
  
