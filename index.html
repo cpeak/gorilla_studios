@@ -11,39 +11,48 @@ header : Home
   }, false);
 </script>
 
-<div class="row sub_promos">
-  <section class="four columns blog_preview">
-    <h2>Blog</h2>
-    {% for post in site.posts limit:1 %}
-      {{ post.content | truncatewords: 100}}
-    {% endfor %}
-    <a class='read_more' href='/blog.html' />(read more...)</a>
-  </section>
-
-  <section class="four columns">
-    <h2>Tweets</h2>
-    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/gorilla_studios" data-widget-id="352483859713126400">Tweets by @gorilla_studios</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </section>
-
-  <section class="four columns" id="index_365">
-    <h2>Photo 365</h2>
-    <a href="/images/pod/314_full.jpg"><img src="/images/pod/314.jpg" alt="Photo of the Day - 314" ></a>
-  </section>
-
+<div class='module'>
+  <div class='module-blog'>
+  {% for post in site.posts limit:1 %}
+  <h2>Blog: {{ post.title }}</h2>
+    {{ post.content }}
+  {% endfor %}
+  </div>
 </div>
 
-<div class='row sub_promos'>
-  <section class='four columns'>
-    <h2>Music</h2>
-    <a href='/music.html'><img src='/images/music-thumb.jpg' /></a>
-  </section>
-  <section class='four columns'>
-    <h2>Borrow Lenses</h2>
-    <a href="http://www.borrowlenses.com?blpid=gorilla-studios&amp;a_bid=dd261a77"><img src="/images/borrow-lenses.jpg" /></a>
-  </section>
-  <section class='four columns'>
-    <h2>Chicago</h2>
-    <a href='/chicago.html'><img src='/images/chicago-lakefront-thumb.jpg' /></a>
-  </section>
+<div class='module'>
+  <a href="/portfolio.html">
+    <section class='module-panel-link half' id='index-portfolios'>
+      <h2>Portfolio</h2>
+    </section>
+  </a>
+  <a href="/music.html">
+    <section class='module-panel-link quarter light' id='index-music'>
+      <h2>Music</h2>
+    </section>
+  </a>
+  <a href='/chicago.html'>
+    <section class='module-panel-link quarter light' id='index-chicago'>
+      <h2>Chicago</h2>
+      <img src="images/index-chicago.jpg" />
+    </section>
+  </a>
+</div>
+
+<div class='module'>
+  <a href="/nature.html">
+    <section class='module-panel-link quarter' id='index-nature'>
+      <h2>Nature</h2>
+    </section>
+  </a>
+  <a href="http://www.borrowlenses.com?blpid=gorilla-studios&amp;a_bid=dd261a77">
+    <section class='module-panel-link quarter light' id='index-borrow'>
+      <h2>Borrowlenses.com</h2>
+    </section>
+  </a>
+  <a href="/photo365.html">
+    <section class='module-panel-link half light' id='index-365'>
+      <h2>Photo365</h2>
+    </section>
+  </a>
 </div>

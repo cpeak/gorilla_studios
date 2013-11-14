@@ -21,9 +21,6 @@
 
 /* ############################################## */
 /* ######## HEADER & NAVIGATION =N ############## */
-header {
-  margin-bottom: 2em;
-}
 header a { text-decoration: none; border: none; }
 header .row {
   padding: 10px 0px 5px 0px;
@@ -56,7 +53,6 @@ header .row {
 
 footer {
   background: #131313;
-  border-top: 1px solid #fff;
   height: 470px;
   margin-top: -470px;
   overflow: hidden;
@@ -176,28 +172,13 @@ code {
 /* ############################################## */
 /* ########### =IP INDEX PAGE ################### */
 
-.sub_promos { margin-bottom: 20px; }
 
-.sub_promos h2 { font-size: 1.75em; }
-
-.sub_promos img { width: 100%; }
-
-.read_more { float: right; }
-
-.blog_preview h3 { margin: 0; }
-
-.blog_preview figcaption,
-.blog_preview img { display: none; }
-
-.blog_preview p {
-  font-size: .85em;
-  line-height: 1.5em;
-  padding-bottom: 5px;
-}
-
-#index_365 img { width: 100%; }
-
-#index_365 h3 { text-align: right; margin: 5px 0px; }
+#index-portfolios { background-image: url('/images/pom_january.jpg'); }
+#index-music { background-image: url('/images/index-music.jpg'); }
+#index-chicago { background-image: url('/images/index-chicago.jpg'); }
+#index-365 { background-image: url('/images/pod/311_full.jpg'); }
+#index-borrow { background-image: url('/images/borrow-lenses.jpg'); }
+#index-nature { background-image: url('/images/index-nature.jpg'); }
 
 /* ############################################## */
 /* ########### =P - POSTS ############# */
@@ -244,7 +225,7 @@ code {
   border-bottom: 1px solid #999;
   border-left: 1px solid #ddd;
   display: block;
-  margin: 0 auto 1.5em auto;
+  margin: 0 auto;
   max-width: 100%;
 }
 
@@ -267,7 +248,6 @@ figcaption {
   display: block;
   color: #777;
   font-size: .7em;
-  margin-top: -20px !important;
   margin-bottom: 1.5em !important;
 }
 
@@ -428,16 +408,13 @@ input[type="text"], textarea {
     width: 100% !important;
   }
 
+  .module .half { width: 100%; }
+  .module .quarter { width: 50%; }
+
   /* BLOG/POSTS */
   /* Blog Post Headlines remove  margin */
   .post_date {
     margin: 0;
-  }
-  .sub-galleries section {
-    float: none !important;
-    margin: 0;
-    text-align: center;
-    width: 100% !important;
   }
   footer {
     padding: 1em;
@@ -455,16 +432,16 @@ input[type="text"], textarea {
   }
 
   /* Home Page */
-  .sub_promos section {
-    border-top: 1px solid #ccc;
-    float: none;
-    text-align: center;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100% !important;
+  .module-blog {
+    margin: 0;
+    padding: 3%;
+    width: 100%;
   }
-
-  #index_365 img { max-width: 100%; }
+  .module .half { width: 100%; }
+  .module .quarter { width: 100%; }
+  #index-borrow {
+    background-position: 50% 50%;
+  }
 
   .footer-nav { display: none; }
 

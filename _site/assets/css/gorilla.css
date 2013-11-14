@@ -1,0 +1,40 @@
+.module {
+  overflow: hidden; }
+  .module section {
+    float: left; }
+  .module .half {
+    width: 50%; }
+  .module .quarter {
+    width: 25%; }
+
+.module-blog {
+  float: right;
+  margin-right: 4%;
+  padding: 8%;
+  width: 70%; }
+
+.module-panel-link {
+  background-position: 50% 0;
+  background-size: cover;
+  position: relative;
+  height: 500px; }
+  .module-panel-link img {
+    width: 100%; }
+  .module-panel-link h2 {
+    color: black;
+    position: absolute;
+    bottom: 4%;
+    right: 4%; }
+  .module-panel-link.light h2 {
+    color: white; }
+  .module-panel-link:hover {
+    cursor: pointer; }
+  .module-panel-link:hover:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); }
