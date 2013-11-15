@@ -5,11 +5,7 @@ header : Home
 ---
 <script src="/assets/js/klass.min.js"></script>
 <script src="/assets/js/code.photoswipe-3.0.5.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function(){
-  var myPhotoSwipe = Code.PhotoSwipe.attach( window.document.querySelectorAll('#index_365 a'), { enableMouseWheel: false , enableKeyboard: false } );
-  }, false);
-</script>
+<script src="/assets/js/instafeed.min.js"></script>
 
 <div class='module'>
   <div class='module-blog'>
@@ -32,10 +28,9 @@ header : Home
       <h2>Music</h2>
     </section>
   </a>
-  <a href='/chicago.html'>
-    <section class='module-panel-link quarter light' id='index-chicago'>
-      <h2>Chicago</h2>
-      <img src="images/index-chicago.jpg" />
+  <a href='/new-england.html'>
+    <section class='module-panel-link quarter light' id='index-new-england'>
+      <h2>New England</h2>
     </section>
   </a>
 </div>
@@ -57,3 +52,33 @@ header : Home
     </section>
   </a>
 </div>
+
+<div class='module'>
+  <section class='module-panel-link half light' id='index-instagram'>
+    <h2>Instagram</h2>
+    <div id='instafeed'>
+      <script type="text/html" id="template">
+        <img src="{{ image }}">
+      </script>
+    </div>
+  </section>
+  <a href="/chicago.html">
+    <section class='module-panel-link half light' id='index-chicago'>
+      <h2>Chicago</h2>
+    </section>
+  </a>
+</div>
+
+
+<script type="text/javascript">
+  var feed = new Instafeed({
+    success: function (data) { console.log(data) },
+    get: 'user',
+    sortBy: 'random',
+    userId: 372454912,
+    accessToken: '372454912.467ede5.0db56b4615784b129f95818c69388cf7',
+    limit: '1',
+    resolution: 'standard_resolution'
+   });
+  feed.run();
+</script>

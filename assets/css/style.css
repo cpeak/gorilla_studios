@@ -152,11 +152,20 @@ code {
 
 #index-portfolios { background-image: url('/images/pom_january.jpg'); }
 #index-music { background-image: url('/images/index-music.jpg'); }
-#index-chicago { background-image: url('/images/index-chicago.jpg'); }
-#index-365 { background-image: url('/images/pod/311_full.jpg'); }
+#index-new-england { background-image: url('/images/index-new-england.jpg'); }
+#index-365 { background-image: url('/images/pod/320_full.jpg'); }
 #index-borrow { background-image: url('/images/borrow-lenses.jpg'); }
 #index-nature { background-image: url('/images/index-nature.jpg'); }
+#index-instagram { background: #222; }
+#index-chicago { background-image: url('/images/index-chicago.jpg'); }
 
+
+#instafeed img {
+  display: block;
+  margin: 0 auto;
+  max-height: 500px;
+  max-width: 500px;
+}
 
 /* ############################################## */
 /* ########### =P - POSTS ############# */
@@ -436,6 +445,11 @@ input[type="text"], textarea {
   #challenge_gallery li {
     margin: 2px 3px;
     width: 48%;
+  }
+
+  .sub-galleries section {
+    text-align: center;
+    width: 100% !important;
   }
 
   /* Contact Form */
