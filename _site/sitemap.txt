@@ -19,6 +19,7 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/11/15/first-time-lapse
 http://www.gorilla-studios.com/2013/11/03/photo-of-the-month
 http://www.gorilla-studios.com/2013/10/28/nine-months-of-kata
 http://www.gorilla-studios.com/2013/10/03/photo-of-the-month
