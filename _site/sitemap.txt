@@ -19,6 +19,7 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2013/12/20/light-pollution
 http://www.gorilla-studios.com/2013/12/10/why-i-dont-machine-gun
 http://www.gorilla-studios.com/2013/12/01/photo-of-the-month
 http://www.gorilla-studios.com/2013/11/15/first-time-lapse
