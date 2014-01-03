@@ -10,7 +10,7 @@ header : Home
 <div class='module'>
   <div class='module-blog'>
   {% for post in site.posts limit:1 %}
-  <h2>Blog: {{ post.title }}</h2>
+  <h2>{{ post.title }}</h2>
     {{ post.content }}
   {% endfor %}
   <span class='right'><h4><a href="/blog.html">Older Posts &gt;&gt;</a></h4></span>
@@ -47,7 +47,7 @@ header : Home
     </section>
   </a>
   <a href="/photo365.html">
-    <section class='module-panel-link half' id='index-365'>
+    <section class='module-panel-link half light' id='index-365'>
       <h2>Photo365</h2>
     </section>
   </a>
