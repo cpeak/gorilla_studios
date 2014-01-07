@@ -6,8 +6,8 @@
     <atom:link href="http://www.gorilla-studios.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Gorilla-Studios Photography &amp; Design</description>
     <language>en-us</language>
-    <pubDate>Tue, 07 Jan 2014 00:31:35 -0600</pubDate>
-    <lastBuildDate>Tue, 07 Jan 2014 00:31:35 -0600</lastBuildDate>
+    <pubDate>Tue, 07 Jan 2014 09:24:58 -0600</pubDate>
+    <lastBuildDate>Tue, 07 Jan 2014 09:24:58 -0600</lastBuildDate>
 
     
     <item>
@@ -16,7 +16,7 @@
       <pubDate>Sun, 05 Jan 2014 00:00:00 -0600</pubDate>
       <author>chris@gorilla-studios.com (Chris Peak)</author>
       <guid>http://www.gorilla-studios.com/2014/01/05/photo365-review</guid>
-      <description>&lt;p&gt;Here are my 12 'Photo of the Month' selections for my Photo365 Challenge for 2013. Looking back at the selections I realize only February and August were roughly planned shots taken when I specifically went out for a shoot, otherwise they were all improvised. It was a perfect split 6 color and 6 black &amp;amp; white, and to my surprise 7 of them were vertical, with only 5 horizontal shots. I had a lot of fun shooting all year and am looking forward to the next batch.&lt;/p&gt;
+      <description>&lt;p&gt;Here are my 12 'Photo of the Month' selections for my Photo365 Challenge in 2013. Looking back at the selections I realize only February and August were roughly planned shots taken when I specifically went out for a shoot, otherwise they were all improvised. It was a perfect split 6 color and 6 black &amp;amp; white, and to my surprise 7 of them were vertical, with only 5 horizontal shots. I had a lot of fun shooting all year and am looking forward to the next batch.&lt;/p&gt;
 &lt;figure&gt;
   &lt;img src=&quot;/images/pom_january.jpg&quot; /&gt;
   &lt;figcaption&gt;January Photo of the Month - Snowy Chicago&lt;/figcaption&gt;
@@ -43,7 +43,7 @@
 &lt;/figure&gt;
 &lt;figure&gt;
   &lt;img src='/images/pod/200_full.jpg' /&gt;
-  &lt;figcaption&gt;July Photo of the Month - Strange Angles&lt;/figcaption&gt;
+  &lt;figcaption class='vertical'&gt;July Photo of the Month - Strange Angles&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure&gt;
   &lt;img src='/images/pod/220_full.jpg' /&gt;
