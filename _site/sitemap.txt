@@ -19,6 +19,8 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2014/01/05/photo365-review
+http://www.gorilla-studios.com/2014/01/02/photo-of-the-month
 http://www.gorilla-studios.com/2014/01/01/hello-2014
 http://www.gorilla-studios.com/2013/12/20/light-pollution
 http://www.gorilla-studios.com/2013/12/10/why-i-dont-machine-gun

@@ -172,11 +172,15 @@ code {
   max-width: 500px;
 }
 
-
-.parallax {
+.index-post {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
 }
-.parallax li img {
-  width: 100%;
+.index-post span {
+  color: #666;
+  font-size: .5em;
+  margin-left: 10px;
 }
 /* ############################################## */
 /* ########### =P - POSTS ############# */

@@ -9,9 +9,11 @@ header : Home
 
 <div class='module'>
   <div class='module-blog'>
-  {% for post in site.posts limit:1 %}
-  <h2>{{ post.title }}</h2>
-    {{ post.content }}
+  {% for post in site.posts limit: 2 %}
+    <div class='index-post'>
+      <h2>{{ post.title }}<span>{{ post.date | date_to_string }}</span></h2>
+      {{ post.content }}
+    </div>
   {% endfor %}
   <span class='right'><h4><a href="/blog.html">Older Posts &gt;&gt;</a></h4></span>
   </div>
