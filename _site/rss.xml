@@ -6,9 +6,22 @@
     <atom:link href="http://www.gorilla-studios.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Gorilla-Studios Photography &amp; Design</description>
     <language>en-us</language>
-    <pubDate>Wed, 08 Jan 2014 10:35:47 -0600</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2014 10:35:47 -0600</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2014 10:47:13 -0600</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2014 10:47:13 -0600</lastBuildDate>
 
+    
+    <item>
+      <title>XKCD - Photos</title>
+      <link>http://www.gorilla-studios.com/2014/01/08/xkcd</link>
+      <pubDate>Wed, 08 Jan 2014 00:00:00 -0600</pubDate>
+      <author>chris@gorilla-studios.com (Chris Peak)</author>
+      <guid>http://www.gorilla-studios.com/2014/01/08/xkcd</guid>
+      <description>&lt;figure&gt;
+  &lt;img src=&quot;/images/xkcd.jpg&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&quot;http://xkcd.com/1314/&quot;&gt;Perfect post from XKCD&lt;/a&gt; about people taking photos. I completely agree, with the exception being concerts - I cannot stand people with cell phones taking photos at concerts.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Sears Tower Sunburst</title>
