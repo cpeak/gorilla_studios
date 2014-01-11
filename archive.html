@@ -4,24 +4,34 @@ title : Archive
 header : Post Archive
 group: navigation
 ---
-<div class="row">
-  <section class="six columns archive-list"> 
-    {% assign posts_collate = site.posts %}
-    {% include JB/posts_collate %}
+<div id="container" class="row">
+    {% for tag in site.tags %}
+    <section class='post-collection'>
+    <h4 class="{{ tag[0] }}" id="{{ tag[0] }}-ref">{{ tag[0] }}</h4>
+      <ul class='archive-list'>
+        {% assign pages_list = tag[1] %}
+        {% include JB/pages_list %}
+      </ul>
+    </section>
+    {% endfor %}
+
+  <!--
+  <section class="six columns archive-list">
+    <h2>Tags</h2>
+    <ul class="tag_box inline">
+      {% assign tags_list = site.tags %}
+      {% include JB/tags_list %}
+    </ul>
   </section>
 
   <section class="six columns">
-    <h2>Tags</h2>
-    <ul class="tag_box inline">
-      {% assign tags_list = site.tags %}  
-      {% include JB/tags_list %}
-    </ul>
-    {% for tag in site.tags %} 
-    <h4 id="{{ tag[0] }}-ref">{{ tag[0] }}</h4>
-    <ul class='archive-list'>
-      {% assign pages_list = tag[1] %}  
-      {% include JB/pages_list %}
-    </ul>
-    {% endfor %}
-  </section>
+    </section> -->
 </div>
+
+<script>
+  var container = document.querySelector('#container');
+  var msnry = new Masonry( container, {
+    // options
+    itemSelector: '.post-collection'
+  });
+</script>
