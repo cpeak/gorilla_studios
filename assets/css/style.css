@@ -410,6 +410,12 @@ input[type="text"], textarea {
 
 .sub-galleries { margin-bottom: 10px; }
 
+.photo52-gallery p {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2em;
+}
+
+
 /* ############################################## */
 /* ############ =MQ Media Queries ############### */
 

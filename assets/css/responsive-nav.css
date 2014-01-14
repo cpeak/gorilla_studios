@@ -4,8 +4,8 @@
   width: 40%;
 }
 
-#navigation { 
-  font-size: .8em; 
+#navigation {
+  font-size: .8em;
   text-transform: uppercase;
   width: 100%;
 }
@@ -13,8 +13,11 @@
 #navigation a { color: #888; }
 #navigation a:hover { color: #000; }
 
-#marquee a { color: white; }
-#marquee a:hover { color: #509f44; }
+#marquee a {
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0,0,0,1);
+}
+#marquee a:hover { color: #ddd; }
 
 .nav-collapse ul {
   margin: 0;
