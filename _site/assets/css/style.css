@@ -395,6 +395,9 @@ input[type="text"], textarea {
 .gallery_list li img { max-width: 100%; }
 
 .sub-galleries { margin-bottom: 10px; }
+.sub-galleries h2 {
+  font-size: 1.2em;
+}
 
 .photo52-gallery p {
   border-bottom: 1px solid #ccc;

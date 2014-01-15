@@ -88,15 +88,11 @@
     margin-left: 10%;
   }
   .nav-collapse li a {
-    border-right: 1px solid #ddd !important;
     border-top: none;
     display: inline-block;
     float: left;
     text-align: center;
     width: 20%;
-  }
-  .nav-collapse li:last-child a {
-    border: none !important;
   }
   .js .nav-collapse {
     position: relative;
