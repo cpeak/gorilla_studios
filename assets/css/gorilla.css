@@ -12,8 +12,6 @@
   margin-right: 4%;
   padding: 4% 8%;
   width: 70%; }
-  .module-blog span {
-    margin-right: 8%; }
   .module-blog img {
     display: block;
     margin: 10px auto; }
@@ -28,6 +26,7 @@
   .module-panel-link h2 {
     color: black;
     position: absolute;
+    font-size: 1.5em;
     bottom: 4%;
     right: 4%; }
   .module-panel-link.light h2 {

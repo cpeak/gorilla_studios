@@ -10,7 +10,10 @@
   width: 100%;
 }
 
-#navigation a { color: #888; }
+#navigation a {
+  color: #888;
+  font-family: "ff-meta-web-pro", sans-serif;
+}
 #navigation a:hover { color: #000; }
 
 #marquee a {
