@@ -19,6 +19,7 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 
+http://www.gorilla-studios.com/2014/01/17/reach
 http://www.gorilla-studios.com/2014/01/08/xkcd
 http://www.gorilla-studios.com/2014/01/07/sears-tower-sunburst
 http://www.gorilla-studios.com/2014/01/05/photo365-review
