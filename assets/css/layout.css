@@ -2,7 +2,7 @@ body,
 html {
   background: #fff;
   font-style: normal;
-  font-size: 21px;
+  font-size: 22px;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -27,31 +27,23 @@ a:hover { color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #444;
-  font-family: "ff-meta-web-pro", sans-serif;
+  font-family: "europa", sans-serif;
   text-transform: uppercase;
   margin: .5em 0;
   padding: 0;
 }
 
-h1 { font-size: 3.157em; }
-h2 { font-size: 2.369em; }
-h3 {
-  font-size: 1.777em;
-  line-height: 0.8441193em;
-  margin-bottom: 0.8441193em;
-}
-
-h4 { font-size: 1.333em; }
-h5 { font-size: 25px; }
 
 img { max-width: 100%; }
 
 p {
-  color: #444;
-  font-family: "ff-meta-serif-web-pro", serif;
+  color: #343434;
+  font-family: "adobe-garamond-pro", serif;
   line-height: 1.8em;
   margin: 0;
   padding-bottom: 1.8em;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
 strong { letter-spacing: -1px; }

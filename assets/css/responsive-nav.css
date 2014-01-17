@@ -12,7 +12,8 @@
 
 #navigation a {
   color: #888;
-  font-family: "ff-meta-web-pro", sans-serif;
+  font-family: "europa", sans-serif;
+  letter-spacing: 2px;
 }
 #navigation a:hover { color: #000; }
 

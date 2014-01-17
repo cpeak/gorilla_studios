@@ -3,14 +3,9 @@ layout: page
 title: Blog
 tagline: Blog
 ---
-<div class="module">
-  <div class="module-blog">
-    {% for post in site.posts limit:10 %}
-      {% include post.html %}
-    {% endfor %}
-    <div class="post">
-      <p><a href="/archive.html">Older Posts &raquo;</a></p>
-    </div>
-  </div>
+{% for post in site.posts limit:10 %}
+{% include post.html %}
+{% endfor %}
+<div class='older-link'>
+  <h4><a href="/archive.html">Older Posts &raquo;</a></h4>
 </div>
-

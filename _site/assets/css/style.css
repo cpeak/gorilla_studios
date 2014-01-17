@@ -58,6 +58,7 @@ footer p,
 }
 
 .footer-nav li a {
+  font-family: "adobe-garamond-pro", serif;
   border-bottom: 1px solid #333;
   color: #888;
   display: block;
@@ -254,6 +255,7 @@ input[type="text"], textarea {
 .module {
   overflow: hidden;
 }
+
 .module section { float: left; }
 .module .half { width: 50%; }
 .module .quarter { width: 25%; }
@@ -270,7 +272,7 @@ input[type="text"], textarea {
   .module-panel-link h2 {
     color: black;
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.2em;
     bottom: 4%;
     right: 4%; }
   .module-panel-link.light h2 {
@@ -327,6 +329,10 @@ input[type="text"], textarea {
 
   .module .half { width: 100%; }
   .module .quarter { width: 100%; }
+
+  .module-panel-link h2 {
+    font-size: 1.5em;
+  }
 
   #index-borrow {
     background-position: 50% 50%;
