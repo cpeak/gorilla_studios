@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ever have one of those days?
-tags: Personal Blog
+tags: Blog
 date: 2011-10-07 15:17:55.000000000 -05:00
 ---
 <p>where everything was perfect and way beyond expectation? I did, and it happened to be my wedding day...</p>

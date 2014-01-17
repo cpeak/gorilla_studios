@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Gorilla-Studios Looks To The Skies 
-tags: Astrophotography
+title: Gorilla-Studios Looks To The Skies
+tags: Astro-Photography
 date: 2012-12-02
 ---
 <img src="/images/celestron.png">

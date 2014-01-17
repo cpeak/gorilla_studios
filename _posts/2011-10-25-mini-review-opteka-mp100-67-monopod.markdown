@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mini-Review - Opteka MP100 67" Monopod 
-tags: Gear Review
+title: Mini-Review - Opteka MP100 67" Monopod
+tags: Gear
 date: 2011-10-25 12:03:11.000000000 -05:00
 ---
 <p>In preparation for an upcoming photo trip to see migrating Sandhill Cranes I wanted to get a monopod so I didn't have to lug my full tripod out into the field.  After some browsing online, I decided to go with the Opteka MP100 67" Monopod.  I couldn't bring myself to spending over a hundred dollars on some high-end brand name kit.  For <a href="http://www.amazon.com/Opteka-MP100-Professional-Heavy-Monopod/dp/B0002RBQO0/">13.50 from Amazon</a> I figured why not try it and see if its a good deal.</p>

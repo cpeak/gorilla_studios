@@ -1,13 +1,8 @@
-/*
-  =L Layout (Row/Colum System)
-
-*/
-
 body,
 html {
   background: #fff;
   font-style: normal;
-  font-size: 22px;
+  font-size: 21px;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -21,7 +16,6 @@ html {
 
 a, a:visited {
   color: #50a045;
-  font-family: "ff-meta-serif-web-pro", serif;
   text-decoration: none;
   -webkit-transition:color 0.15s ease-in;
   -moz-transition:color 0.15s ease-in;

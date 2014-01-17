@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Whats In The Bag? Black Rapid RS 7
-tags: Gear Review  
+tags: Gear
 date: 2011-12-30 07:18:30.000000000 -06:00
 ---
 <p>The newest addition to my setup is a brand new Black Rapid RS-7 sling camera strap.  Prior to finding this one under the Christmas tree this year I was using a homemade setup that consisted of a guitar strap secured to a post from an extra tripod mount - not the most professional setup in the world.</p>

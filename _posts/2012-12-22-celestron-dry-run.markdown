@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Celestron Dry Run 
-tags: Astrophotography
-date: 2012-12-22  
+title: Celestron Dry Run
+tags: Astro-Photography
+date: 2012-12-22
 ---
 <p>I finally took my recently acquired Celestron Ultima 11 Schmidt-Cass telescope out for a test run to get a feel for using it in the field. Everything setup easily and I got the moon in sight quickly, but I had some initial focusing problems. About a half hour of tinkering around and I finally got it in focus and was thoroughly impressed with the clarity. The Celestron has an 11" mirror with a rough focal length of 2800mm. Using a 26mm Plossl eyepiece puts us at roughly 108x magnification (2800mm / 26mm). I couldn't help just gazing through the eyepiece for some time, getting used to tracking the moon manually (I still need to learn how to properly polar align the scope and use the auto tracking). Finally I pulled out my trusty EOS 10D and mounted it to the scope. I refocused and started shooting, right around 1/90th at ISO 200. I locked the mirror up and used a remote as to avoid shake, but the first round of photos were all soft. Im not sure if it was a mirror shake problem or the images were just plain out of focus. I had a hard time getting locked in with the telescopes focus knob, clearly its going to take some practice. Heres the 'best' of the out of focus images from tonight:</p>
 <img src="/images/celestron_test.png" />

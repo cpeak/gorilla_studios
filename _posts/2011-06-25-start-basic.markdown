@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Start Basic
-tags: Design Music-Photography 
+tags: Blog
 date: 2011-06-25 17:10:03.000000000 -05:00
 ---
 <img src="/images/start_basic_logo.jpg" alt="Start Basic band logo" />

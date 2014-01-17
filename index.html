@@ -10,10 +10,7 @@ header : Home
 <div class='module'>
   <div class='module-blog'>
   {% for post in site.posts limit: 2 %}
-    <div class='index-post'>
-      <h2><span class="icon {{ post.tags }}"></span>{{ post.title }}<span>{{ post.date | date_to_string }}</span></h2>
-      {{ post.content }}
-    </div>
+    {% include post.html %}
   {% endfor %}
   <span class='right'><h4><a href="/blog.html">Older Posts &gt;&gt;</a></h4></span>
   </div>
