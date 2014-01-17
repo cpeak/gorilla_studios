@@ -8,7 +8,7 @@ header : Home
 <script src="/assets/js/instafeed.min.js"></script>
 
 <div class='index-posts'>
-  {% for post in site.posts limit: 2 %}
+  {% for post in site.posts limit: 3 %}
     {% include post.html %}
   {% endfor %}
 </div>
@@ -16,7 +16,7 @@ header : Home
   <span><h4><a href="/blog.html">Older Posts &gt;&gt;</a></h4></span>
 </div>
 
-<div class='module'>
+<div class='module index-panels'>
   <a href="/portfolio.html">
     <section class='module-panel-link half' id='index-portfolios'>
       <h2>Portfolio</h2>

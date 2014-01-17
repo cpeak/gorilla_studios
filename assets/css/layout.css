@@ -22,7 +22,7 @@ a, a:visited {
   -webkit-transition:color 0.15s ease-in;
   -moz-transition:color 0.15s ease-in;
   -o-transition:color 0.15s ease-in;
-  transition: all 0.15s ease-in;
+  transition: all 0.25s ease-in;
 }
 
 a:hover { color: #000; }

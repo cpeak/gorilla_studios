@@ -1,6 +1,6 @@
-/* Blog Container */
-
-
+.post {
+  position: relative;
+}
 
 .post span.icon { font-size: 1em; }
 
@@ -132,16 +132,42 @@ figcaption span:before {
 }
 
 
-.pagination {
-  margin-top: 1em;
-  text-align: center;
+/* #### PREV/NEXT LINKS ##### */
+
+.prev a,
+.next a {
+  background: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,1);
+  font-size: 1.5em;
+  position: absolute;
+  padding: 30px 30px 25px 30px;
+  top: 42%;
 }
 
-.pagination ul li { display: inline; }
-.pagination a {
-  margin: 0 5px;
-  padding: 5px;
+.disabled a {
+  color: rgba(255,255,255,0.5);
 }
+
+
+.prev,
+.next {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 120px;
+  z-index: 100;
+}
+
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+
+.prev:hover a { margin-left: 0; }
+.prev a { margin-left: -200px; }
+
+.next:hover a { margin-left: 00px; }
+.next a { margin-left: 200px; }
 
 
 
@@ -149,6 +175,8 @@ figcaption span:before {
 
 /* ########################################### iPad */
 @media screen and (max-width: 1024px) {
+  .prev,
+  .next { display: none; }
   .post h2 {
     font-size: 1.5em;
   }

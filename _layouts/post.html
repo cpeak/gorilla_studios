@@ -4,20 +4,19 @@ layout: default
 <article class="post">
 <h3><span class="icon {{ page.tags }}"></span> {{ page.title }}</h3>
   {{ content }}
-</article>
 
-<div class="pagination cf">
-  <ul>
     {% if page.previous %}
-    <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+    <div class='prev'><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}"><span class='icon-arrow-left'></span></a></div>
     {% else %}
-    <li class="prev disabled"><a>&larr; Previous</a></li>
+    <div class='prev disabled'><a><span class='icon-arrow-left'></span></a></div>
     {% endif %}
-    <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+
+    <!-- <a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a> -->
+
     {% if page.next %}
-    <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+      <div class='next'><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}"><span class='icon-arrow-right'></span></a></div>
     {% else %}
-    <li class="next disabled"><a>Next &rarr;</a>
+      <div class='next disabled'><a><span class='icon-arrow-right'></span></a></div>
     {% endif %}
-  </ul>
 </div>
+</article>

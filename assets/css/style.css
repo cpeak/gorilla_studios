@@ -12,7 +12,7 @@ header .row { padding: 10px 0px 5px 0px; }
 
 .marquee {
   background: url('/images/marquee/inky-lake.jpg') no-repeat center center;
-  border-bottom: 2px solid #50a045;
+  border-bottom: 1px solid #50a045;
   height: 600px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -37,7 +37,6 @@ header .row { padding: 10px 0px 5px 0px; }
 
 footer {
   background: #131313;
-  border-top: 1px solid #222;
   height: 470px;
   margin-top: -470px;
   overflow: hidden;
@@ -115,12 +114,18 @@ code {
 .icon-camera:before { content: "\e008"; }
 .icon-nature:before { content: "\e003"; }
 .icon-menu:before { content: "\e600"; }
+.icon-arrow-left:before { content: "\e601"; }
+.icon-arrow-right:before { content: "\e602"; }
 
 /* ############################################## */
 /* ########### =IP INDEX PAGE ################### */
 
 .index-posts .post:first-child {
   border: none;
+}
+
+.index-panels {
+  border-top: 1px solid #50a045;
 }
 #index-portfolios { background-image: url('/images/pom_january.jpg'); }
 #index-music { background-image: url('/images/index-music.jpg'); }
@@ -248,10 +253,6 @@ input[type="text"], textarea {
   font-size: 1.2em;
 }
 
-.photo52-gallery p {
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 2em;
-}
 
 /* ############################################## */
 /* ############ =CP CLEAN UP      ############### */

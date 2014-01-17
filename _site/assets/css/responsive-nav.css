@@ -19,7 +19,7 @@
 
 #marquee a {
   color: white;
-  text-shadow: 0px 0px 5px rgba(0,0,0,1);
+  text-shadow: 0px 0px 5px rgba(0,0,0,.5);
 }
 #marquee a:hover { color: #ddd; }
 
