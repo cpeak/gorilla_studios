@@ -38,6 +38,7 @@
 .nav-collapse li a {
   border-top: 1px solid #ddd;
   display: block;
+  font-size: 1em;
   padding: 8px;
   width: 100%;
 }

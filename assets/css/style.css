@@ -119,6 +119,9 @@ code {
 /* ############################################## */
 /* ########### =IP INDEX PAGE ################### */
 
+.index-posts .post:first-child {
+  border: none;
+}
 #index-portfolios { background-image: url('/images/pom_january.jpg'); }
 #index-music { background-image: url('/images/index-music.jpg'); }
 #index-new-england { background-image: url('/images/index-new-england.jpg'); }
@@ -159,6 +162,7 @@ code {
 }
 
 .post-collection ul li a {
+  font-family: "adobe-garamond-pro", "Times", serif;
   display: block;
   font-size: .8em;
   padding: 4px;

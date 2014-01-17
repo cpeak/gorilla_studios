@@ -7,9 +7,11 @@ header : Home
 <script src="/assets/js/code.photoswipe-3.0.5.min.js"></script>
 <script src="/assets/js/instafeed.min.js"></script>
 
-{% for post in site.posts limit: 2 %}
-  {% include post.html %}
-{% endfor %}
+<div class='index-posts'>
+  {% for post in site.posts limit: 2 %}
+    {% include post.html %}
+  {% endfor %}
+</div>
 <div class='older-link'>
   <span><h4><a href="/blog.html">Older Posts &gt;&gt;</a></h4></span>
 </div>

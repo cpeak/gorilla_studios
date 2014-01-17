@@ -6,6 +6,8 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -42,8 +44,6 @@ p {
   line-height: 1.8em;
   margin: 0;
   padding-bottom: 1.8em;
-  -webkit-backface-visibility: hidden;
-  -webkit-font-smoothing: antialiased;
 }
 
 strong { letter-spacing: -1px; }
