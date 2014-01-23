@@ -93,6 +93,7 @@
     border-top: none;
     display: inline-block;
     float: left;
+    font-size: .8em;
     text-align: center;
     width: 20%;
   }
