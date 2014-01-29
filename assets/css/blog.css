@@ -170,7 +170,48 @@ figcaption span:before {
 .next a { margin-left: 200px; }
 
 
+/* ########################################### Longform */
 
+.longform p {
+  font-size: 18px;
+  max-width: 900px;
+}
+
+.longform h3 {
+  max-width: 920px;
+}
+
+.lnrow {
+  margin-bottom: 1.8em;
+  padding-top: 1.8em;
+  overflow: hidden;
+}
+
+.lncontent {
+  margin: 1.8em auto;
+  max-width: 900px;
+  overflow: hidden;
+}
+
+.lnrow section {
+  float: left;
+  width: 50%;
+}
+
+.lnrow p {
+  padding-right: 20px;
+}
+
+.lnrow figure {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.dark {
+  background: #121212;
+}
+.dark p { color: #fff; }
+.dark a:hover { color: #C3E2BE; }
 
 
 /* ########################################### iPad */
