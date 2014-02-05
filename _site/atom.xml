@@ -4,13 +4,25 @@
  <title>Gorilla-Studios</title>
  <link href="http://www.gorilla-studios.com/atom.xml" rel="self"/>
  <link href="http://www.gorilla-studios.com"/>
- <updated>2014-02-03T11:21:43-06:00</updated>
+ <updated>2014-02-04T20:44:26-06:00</updated>
  <id>http://www.gorilla-studios.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Pritzker Pavilion</title>
+   <link href="http://www.gorilla-studios.com/2014/02/01/pritzker"/>
+   <updated>2014-02-01T00:00:00-06:00</updated>
+   <id>http://www.gorilla-studios.com/2014/02/01/pritzker</id>
+   <content type="html">&lt;figure&gt;
+  &lt;img src=&quot;/images/p52/05.jpg&quot; /&gt;
+  &lt;figcaption class='light full'&gt;Pritzker Pavilion, Millenium Park&lt;span&gt;10s, f/9, ISO50&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Reach For The Sky</title>
@@ -940,14 +952,6 @@
  </entry>
  
  <entry>
-   <title>Watching The Storm Roll Through</title>
-   <link href="http://www.gorilla-studios.com/2011/12/16/watching-the-storm-roll-through"/>
-   <updated>2011-12-16T10:45:10-06:00</updated>
-   <id>http://www.gorilla-studios.com/2011/12/16/watching-the-storm-roll-through</id>
-   <content type="html">&lt;a href='/images/CRW_1453.jpg' rel='lightbox[unique]'&gt;&lt;img src='/images/CRW_1453s.jpg' /&gt;&lt;/a&gt;</content>
- </entry>
- 
- <entry>
    <title>Photoshop Quick Tip - Lens Correction</title>
    <link href="http://www.gorilla-studios.com/2011/12/14/photoshop-quick-tip-lens-correction"/>
    <updated>2011-12-14T09:36:53-06:00</updated>
@@ -1003,14 +1007,6 @@
 &lt;p&gt;He did make a dent in the universe.&lt;/p&gt;
 
 &lt;p&gt;It is with great sadness in my heart that I say &amp;#8216;Thanks Steve&amp;#8217;&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>Great Egret</title>
-   <link href="http://www.gorilla-studios.com/2011/08/27/great-egret"/>
-   <updated>2011-08-27T13:34:48-05:00</updated>
-   <id>http://www.gorilla-studios.com/2011/08/27/great-egret</id>
-   <content type="html">&lt;img alt='Great Egret on the Fox River' src='/images/CRW_9646.jpg' /&gt;</content>
  </entry>
  
  <entry>

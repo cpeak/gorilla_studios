@@ -20,6 +20,7 @@ http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 http://www.gorilla-studios.com/test.html
 
+http://www.gorilla-studios.com/2014/02/01/pritzker
 http://www.gorilla-studios.com/2014/01/17/reach
 http://www.gorilla-studios.com/2014/01/08/xkcd
 http://www.gorilla-studios.com/2014/01/07/sears-tower-sunburst
@@ -90,14 +91,12 @@ http://www.gorilla-studios.com/2012/01/01/new-years-resolution-investing-in-myse
 http://www.gorilla-studios.com/2011/12/31/from-the-archives-2
 http://www.gorilla-studios.com/2011/12/30/whats-in-the-bag-black-rapid-rs-7
 http://www.gorilla-studios.com/2011/12/27/quote-ira-glass
-http://www.gorilla-studios.com/2011/12/16/watching-the-storm-roll-through
 http://www.gorilla-studios.com/2011/12/14/photoshop-quick-tip-lens-correction
 http://www.gorilla-studios.com/2011/12/12/happy-8th-birthday-gorilla-studios
 http://www.gorilla-studios.com/2011/12/03/whats-in-the-bag
 http://www.gorilla-studios.com/2011/10/25/mini-review-opteka-mp100-67-monopod
 http://www.gorilla-studios.com/2011/10/07/ever-have-one-of-those-days
 http://www.gorilla-studios.com/2011/10/06/thank-you-steve
-http://www.gorilla-studios.com/2011/08/27/great-egret
 http://www.gorilla-studios.com/2011/08/10/stop-to-smell-the-roses
 http://www.gorilla-studios.com/2011/07/30/good-morning
 http://www.gorilla-studios.com/2011/07/07/photojojo-gifts-gear-for-photographers
