@@ -3,6 +3,11 @@
 .right { float: right; }
 
 
+.err404 {
+  padding: 1em;
+  text-align: center;
+}
+
 
 /* ############################################## */
 /* ######## HEADER & NAVIGATION =N ############## */
@@ -10,6 +15,12 @@ header { margin-bottom: 20px; }
 header a { text-decoration: none; border: none; }
 header .row { padding: 10px 0px 5px 0px; }
 
+.header_content {
+  margin: 0 auto;
+  padding-top: 10px;
+  overflow: hidden;
+  max-width: 1000px;
+}
 .marquee {
   background: url('/images/marquee/inky-lake.jpg') no-repeat center center;
   border-bottom: 1px solid #50a045;
@@ -43,7 +54,16 @@ footer {
   padding-top: 2em;
   width: 100%;
 }
+footer div {
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1000px;
+}
 
+footer section {
+  float: left;
+  width: 33.333%;
+}
 footer p,
 .footer-nav {
   color: #888;
@@ -196,9 +216,12 @@ code {
 
 /* ################################################## */
 /* ############## =CP CONTACT PAGE ################## */
+#contact-form {
+  float: left;
+  width: 50%;
+}
 
 .contact_form { margin-bottom: 40px; }
-
 .contact_form p {
   font-size: 1.1em;
   padding-top: 7px;
@@ -208,6 +231,11 @@ code {
 input[type="text"], textarea {
   padding: 4px;
   width: 90%;
+}
+
+#alternate-contacts {
+  float: left;
+  width: 50%;
 }
 
 .social-link { border-spacing: 10px; }
@@ -237,20 +265,25 @@ input[type="text"], textarea {
 }
 .gallery_list ul {
   overflow: hidden;
-  padding: 1% 0 0 1%;
 }
 
 .gallery_list li {
   float: left;
-  margin: 0px 1% 0.5% 0px;
-  width: 24%;
+  padding: .5%;
+  width: 25%;
 }
 
-.gallery_list li img { max-width: 100%; }
+.gallery_list li img { width: 100%; }
 
 .sub-galleries { margin-bottom: 10px; }
+.sub-galleries section {
+  float: left;
+  padding: 0.5%;
+  width: 25%;
+}
 .sub-galleries h2 {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  margin: 5px 0;
 }
 
 

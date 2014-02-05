@@ -1,5 +1,5 @@
 
-http://www.gorilla-studios.com/about.html
+http://www.gorilla-studios.com/404.html
 http://www.gorilla-studios.com/archive.html
 http://www.gorilla-studios.com/atom.xml
 http://www.gorilla-studios.com/blog.html
