@@ -20,11 +20,16 @@ http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 http://www.gorilla-studios.com/test.html
 
-http://www.gorilla-studios.com/2014/02/01/pritzker
+http://www.gorilla-studios.com/2014/02/09/photo52-week6
+http://www.gorilla-studios.com/2014/01/29/photo52-week5
+http://www.gorilla-studios.com/2014/01/24/photo52-week4
 http://www.gorilla-studios.com/2014/01/17/reach
+http://www.gorilla-studios.com/2014/01/15/photo52-week3
+http://www.gorilla-studios.com/2014/01/13/photo52-week2
 http://www.gorilla-studios.com/2014/01/08/xkcd
 http://www.gorilla-studios.com/2014/01/07/sears-tower-sunburst
 http://www.gorilla-studios.com/2014/01/05/photo365-review
+http://www.gorilla-studios.com/2014/01/03/photo52-watertower
 http://www.gorilla-studios.com/2014/01/02/photo-of-the-month
 http://www.gorilla-studios.com/2014/01/01/hello-2014
 http://www.gorilla-studios.com/2013/12/20/light-pollution
