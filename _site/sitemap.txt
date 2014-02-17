@@ -20,6 +20,7 @@ http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/tags.html
 http://www.gorilla-studios.com/test.html
 
+http://www.gorilla-studios.com/2014/02/17/photo52-week7
 http://www.gorilla-studios.com/2014/02/09/photo52-week6
 http://www.gorilla-studios.com/2014/01/29/photo52-week5
 http://www.gorilla-studios.com/2014/01/24/photo52-week4
