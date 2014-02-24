@@ -11,13 +11,11 @@ http://www.gorilla-studios.com/london.html
 http://www.gorilla-studios.com/music.html
 http://www.gorilla-studios.com/nature.html
 http://www.gorilla-studios.com/new-england.html
-http://www.gorilla-studios.com/pages.html
 http://www.gorilla-studios.com/photo365.html
 http://www.gorilla-studios.com/photo52.html
 http://www.gorilla-studios.com/portfolio.html
 http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
-http://www.gorilla-studios.com/tags.html
 http://www.gorilla-studios.com/test.html
 
 http://www.gorilla-studios.com/2014/02/17/photo52-week7

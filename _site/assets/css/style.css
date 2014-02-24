@@ -259,6 +259,9 @@ input[type="text"], textarea {
 /* ################################################# */
 /* ########## =PG  PHOTO GALLERIES ################# */
 
+.gallery_list {
+  padding: 10px;
+}
 .gallery_list h2 {
   font-size: 1.75em;
   margin-left: 10px;
@@ -275,7 +278,10 @@ input[type="text"], textarea {
 
 .gallery_list li img { width: 100%; }
 
-.sub-galleries { margin-bottom: 10px; }
+.sub-galleries {
+  padding: 10px;
+  overflow: hidden;
+}
 .sub-galleries section {
   float: left;
   padding: 0.5%;
