@@ -42,6 +42,25 @@ header .row { padding: 10px 0px 5px 0px; }
   min-height: 100%;
   padding-bottom: 470px;
 }
+.pace .pace-progress {
+  background: #157b00;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 2px;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+
 
 /* ############################################## */
 /* ############### FOOTER =F #################### */
