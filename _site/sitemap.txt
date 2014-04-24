@@ -18,6 +18,7 @@ http://www.gorilla-studios.com/rss.xml
 http://www.gorilla-studios.com/sitemap.txt
 http://www.gorilla-studios.com/test.html
 
+http://www.gorilla-studios.com/2014/04/24/canon-70-300-L
 http://www.gorilla-studios.com/2014/04/23/spring-on-lake-michigan
 http://www.gorilla-studios.com/2014/03/06/photo101-getting-out-of-auto
 http://www.gorilla-studios.com/2014/02/24/photo52-week8
