@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
     addressable (2.3.2)
@@ -92,4 +92,5 @@ DEPENDENCIES
   foreman
   heroku
   jekyll (~> 2.0.3)
+  listen (~> 2.7.4)
   rake
