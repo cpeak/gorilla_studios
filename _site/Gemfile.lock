@@ -92,5 +92,4 @@ DEPENDENCIES
   foreman
   heroku
   jekyll (~> 2.0.3)
-  listen (~> 2.7.4)
   rake
